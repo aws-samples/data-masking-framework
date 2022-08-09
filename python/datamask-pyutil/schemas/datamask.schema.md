@@ -1,0 +1,188 @@
+# DatamaskConfProcess parameters
+
+_JSON schema to the datamask-pyutil parameter file_
+
+Type: `object`
+
+path: #
+
+This schema accepts additional properties.
+
+**_Properties_**
+
+ - Jobs `required`
+	 - _List of Jobs_
+	 - Type: `array`
+	 - path: #/properties/Jobs
+		 - **_Items_**
+		 - Type: `object`
+		 - path: #/properties/Jobs/items
+		 - This schema accepts additional properties.
+		 - **_Properties_**
+			 - JobName `required`
+				 - _The Job name_
+				 - Type: `string`
+				 - path: #/properties/Jobs/items/properties/JobName
+			 - Active `required`
+				 - _If False turn off the job processing_
+				 - Type: `boolean`
+				 - path: #/properties/Jobs/items/properties/Active
+			 - Input `required`
+				 - _Input properties_
+				 - Type: `object`
+				 - path: #/properties/Jobs/items/properties/Input
+				 - This schema accepts additional properties.
+				 - **_Properties_**
+					 - InputPath `required`
+						 - _The input path to be read_
+						 - Type: `string`
+						 - path: #/properties/Jobs/items/properties/Input/properties/InputPath
+					 - RepartitionValue
+						 - _If set the process will try to repartition the input to better performance_
+						 - Type: `number`
+						 - path: #/properties/Jobs/items/properties/Input/properties/RepartitionValue
+					 - ReadFormat `required`
+						 - _The read format, Examples: parquet, csv _
+						 - Type: `string`
+						 - path: #/properties/Jobs/items/properties/Input/properties/ReadFormat
+					 - IntPartitions
+						 - _If input has partitions keys, this is the list of int partitions_
+						 - Type: `array`
+						 - path: #/properties/Jobs/items/properties/Input/properties/IntPartitions
+							 - **_Items_**
+							 - Type: `string`
+							 - path: #/properties/Jobs/items/properties/Input/properties/IntPartitions/items
+					 - ReadOptions
+						 - Type: `array`
+						 - path: #/properties/Jobs/items/properties/Input/properties/ReadOptions
+							 - **_Items_**
+							 - _The read options to use in the read process_
+							 - Type: `object`
+							 - path: #/properties/Jobs/items/properties/Input/properties/ReadOptions/items
+							 - This schema accepts additional properties.
+							 - **_Properties_**
+								 - OptionName `required`
+									 - _Option name_
+									 - Type: `string`
+									 - path: #/properties/Jobs/items/properties/Input/properties/ReadOptions/items/properties/OptionName
+								 - OptionValue `required`
+									 - _Option Value_
+									 - Type: `string`
+									 - path: #/properties/Jobs/items/properties/Input/properties/ReadOptions/items/properties/OptionValue
+			 - Output `required`
+				 - _Output properties_
+				 - Type: `object`
+				 - path: #/properties/Jobs/items/properties/Output
+				 - This schema accepts additional properties.
+				 - **_Properties_**
+					 - OutputPath `required`
+						 - _The output path to write_
+						 - Type: `string`
+						 - path: #/properties/Jobs/items/properties/Output/properties/OutputPath
+					 - OutputTable
+						 - _If set the process will try to update the table metadata_
+						 - Type: `string`
+						 - path: #/properties/Jobs/items/properties/Output/properties/OutputTable
+					 - OutputDatabase
+						 - _If set the process will try to update the metadata, it needs to be set with  OutputTable_
+						 - Type: `string`
+						 - path: #/properties/Jobs/items/properties/Output/properties/OutputDatabase
+					 - Coalesce
+						 - _If set the process will coalesce partitions before write in the output. This is usually the number of files to be write in the ouput path._
+						 - Type: `number`
+						 - path: #/properties/Jobs/items/properties/Output/properties/Coalesce
+			 - MaskFields `required`
+				 - _List of Mask Field properties_
+				 - Type: `array`
+				 - path: #/properties/Jobs/items/properties/MaskFields
+					 - **_Items_**
+					 - Type: `object`
+					 - path: #/properties/Jobs/items/properties/MaskFields/items
+					 - This schema accepts additional properties.
+					 - **_Properties_**
+						 - Active `required`
+							 - _If False turn off the mask field_
+							 - Type: `boolean`
+							 - path: #/properties/Jobs/items/properties/MaskFields/items/properties/Active
+						 - MaskFieldName `required`
+							 - _Mask field name_
+							 - Type: `string`
+							 - path: #/properties/Jobs/items/properties/MaskFields/items/properties/MaskFieldName
+						 - FieldName `required`
+							 - _Filed Name_
+							 - Type: `string`
+							 - path: #/properties/Jobs/items/properties/MaskFields/items/properties/FieldName
+						 - FormatRE
+							 - _Regular expression RE to be procced. Use this expression to use just a field part_
+							 - Type: `string`
+							 - path: #/properties/Jobs/items/properties/MaskFields/items/properties/FormatRE
+						 - DomainName `required`
+							 - _Domain name to get mask configurations_
+							 - Type: `string`
+							 - path: #/properties/Jobs/items/properties/MaskFields/items/properties/DomainName
+						 - KeepMaskName
+							 - _If True process will keep the mask name, otherwise the mask field will renamed to the original field name_
+							 - Type: `boolean`
+							 - path: #/properties/Jobs/items/properties/MaskFields/items/properties/KeepMaskName
+ - Domains `required`
+	 - _List of data mask domains_
+	 - Type: `array`
+	 - path: #/properties/Domains
+		 - **_Items_**
+		 - Type: `object`
+		 - path: #/properties/Domains/items
+		 - This schema accepts additional properties.
+		 - **_Properties_**
+			 - DomainName `required`
+				 - _Domain name_
+				 - Type: `string`
+				 - path: #/properties/Domains/items/properties/DomainName
+			 - SaltName
+				 - _The sal name to be searched inside the sal file_
+				 - Type: `string`
+				 - path: #/properties/Domains/items/properties/SaltName
+			 - Layout `required`
+				 - _Layout to be used to replace the salt and field. $SALT will be replaced by the sal value and $VALUE will be replaced by the field value_
+				 - Type: `string`
+				 - path: #/properties/Domains/items/properties/Layout
+			 - MaskType `required`
+				 - _Algorithm type to mask the field_
+				 - Type: `string`
+				 - path: #/properties/Domains/items/properties/MaskType
+			 - FieldAlias `required`
+				 - _Field alias to be used in the Reverse dataset_
+				 - Type: `string`
+				 - path: #/properties/Domains/items/properties/FieldAlias
+			 - MaskFieldAlias `required`
+				 - _Mask field alias to be used in the reverse dataset_
+				 - Type: `string`
+				 - path: #/properties/Domains/items/properties/MaskFieldAlias
+			 - ReverseDataset
+				 - Type: `object`
+				 - path: #/properties/Domains/items/properties/ReverseDataset
+				 - This schema accepts additional properties.
+				 - **_Properties_**
+					 - Active `required`
+						 - _If False tur off the creation of the reverse dataset_
+						 - Type: `boolean`
+						 - path: #/properties/Domains/items/properties/ReverseDataset/properties/Active
+					 - DatasetPath `required`
+						 - _Reverse dataset path_
+						 - Type: `string`
+						 - path: #/properties/Domains/items/properties/ReverseDataset/properties/DatasetPath
+					 - Coalesce
+						 - _If set the process will coalesce partitions before write in the reverse dataset. This is usually the number of files to be write in the ouput path_
+						 - Type: `number`
+						 - path: #/properties/Domains/items/properties/ReverseDataset/properties/Coalesce
+ - Salts
+	 - _Salt properties_
+	 - Type: `object`
+	 - path: #/properties/Salts
+	 - This schema accepts additional properties.
+	 - **_Properties_**
+		 - SaltsPath `required`
+			 - _The salt path_
+			 - Type: `string`
+			 - path: #/properties/Salts/properties/SaltsPath
+
+

@@ -1,0 +1,6 @@
+export PREFIX="dmask-"
+export ENV="dev"
+export ARTF_PARAM_FILE="config.json"
+export VPC="vpc-id"
+export SUBNET="subnet-id"
+export AZ="us-east-1a"

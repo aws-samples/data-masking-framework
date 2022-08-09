@@ -1,0 +1,1001 @@
+id,credit_card,date_rent,time_rent,movie,movie_genres
+1,3544786641015459,2020-04-13,4:18:52,"Mighty Macs, The",Drama
+2,3587947120999997,2020-04-13,17:21:46,Staying Together,Comedy|Drama
+3,3580693329576023,2020-04-13,16:45:54,S.O.B.,Comedy
+4,5048377655200488,2020-04-13,23:44:37,"Town Called Panic, A (Panique au village)",Animation
+5,201837651696983,2020-04-13,16:48:15,"Atomic Cafe, The",Documentary|War
+6,3541616820836321,2020-04-13,21:23:26,"House Bunny, The",Comedy
+7,6771136673839623395,2020-04-13,16:23:57,"Toxic Avenger, The",Comedy|Horror
+8,374622509637194,2020-04-13,1:41:10,Sanatorium,
+9,3538087490155928,2020-04-13,15:50:27,Rebecca of Sunnybrook Farm,Children|Comedy|Drama|Musical
+10,3576138927095477,2020-04-13,4:35:46,Freaky Friday,Children|Comedy|Fantasy
+11,36348117705583,2020-04-13,10:07:36,Música Campesina (Country Music),Comedy|Drama
+12,337941629954685,2020-04-13,22:39:10,"Fifth Cord, The (Giornata nera per l'ariete)",Mystery|Thriller
+13,6767095282888163,2020-04-13,2:49:18,What About Bob?,Comedy
+14,5010122351834410,2020-04-13,13:24:26,In God We Teach,Documentary
+15,56022178625159991,2020-04-13,20:48:56,Immediate Family,Drama
+16,3530282275564836,2020-04-13,0:28:38,Black Dog,Action|Thriller
+17,3528430946822158,2020-04-13,12:22:10,The Taking of Deborah Logan,Horror|Thriller
+18,3533075991492168,2020-04-13,2:48:26,I Killed My Mother (J'ai tué ma mère),Drama
+19,5468933650205087,2020-04-13,14:29:54,Brown of Harvard,Drama|Romance
+20,5108750883550360,2020-04-13,12:01:05,Mass Appeal,Drama
+21,3565155916650016,2020-04-13,10:01:25,Time to Leave,Drama
+22,3567948023671547,2020-04-13,21:36:12,Ladies of Leisure,Romance
+23,3540908644492261,2020-04-13,20:01:20,"Conformist, The (Conformista, Il)",Drama
+24,3585074320048293,2020-04-13,9:20:48,Washington Heights,Drama|Romance
+25,564182540125967471,2020-04-13,14:46:07,Life Itself,Documentary
+26,201831729389143,2020-04-13,11:35:25,"Come On, Rangers",
+27,30528560646105,2020-04-13,3:17:16,Une étudiante d'aujourd'hui,Documentary
+28,3536362144227544,2020-04-13,21:58:43,Cobb,Drama
+29,3564886209523657,2020-04-13,19:34:50,Ricky,Comedy|Drama|Fantasy
+30,3540848386661915,2020-04-13,18:13:06,Delgo,Adventure|Animation|Comedy|Fantasy|Romance
+31,5204888994776368,2020-04-13,20:27:30,Marat/Sade,Drama|Musical
+32,3579801330228194,2020-04-13,2:51:50,Muppets Most Wanted,Adventure|Comedy|Crime
+33,374288351243513,2020-04-13,15:30:37,Bang the Drum Slowly,
+34,3541710981593233,2020-04-13,13:09:06,Kevin Smith: Too Fat For 40,Comedy
+35,3536888794167101,2020-04-13,10:07:02,So It Goes (Korsoteoria),Drama
+36,374288608791595,2020-04-13,6:45:44,American Bandits: Frank and Jesse James,Western
+37,67634345238934568,2020-04-13,5:24:46,"Living Dead Girl, The (Morte Vivante, La)",Horror
+38,5641826379441357,2020-04-13,5:23:47,Cord (Hide and Seek),Crime|Drama|Thriller
+39,5108752227630841,2020-04-13,1:26:26,Snow Flower and the Secret Fan,Drama
+40,3580071413303978,2020-04-13,0:32:56,Mirage,Mystery|Thriller
+41,5508661753103600,2020-04-13,6:16:15,Jean Renoir: Part One - From La Belle Époque to World War II,Documentary
+42,4041374304447834,2020-04-13,5:19:00,"Big Easy, The",Action|Crime|Mystery|Romance|Thriller
+43,3573597091617049,2020-04-13,3:32:34,American Reunion (American Pie 4),Comedy
+44,3536488250081142,2020-04-13,0:43:21,Hiroshima,Comedy
+45,3548285190287508,2020-04-13,10:09:24,Five Graves to Cairo,Thriller|War
+46,6374519461852844,2020-04-13,13:59:25,Legionnaire,Action|Adventure|Drama|War
+47,3544065430566380,2020-04-13,12:43:48,Grand Theft Parsons,Comedy|Drama
+48,5565858282659579,2020-04-13,21:59:50,Gifted Hands: The Ben Carson Story,Drama
+49,3553580172507028,2020-04-13,16:11:44,Fatal Attraction,Drama|Thriller
+50,5108757900852323,2020-04-13,16:48:20,Park Row,Drama|Thriller
+51,3563247657603569,2020-04-13,0:58:54,Johnny Tremain,Adventure|Children|War
+52,374283262973373,2020-04-13,14:33:15,Battle Royale 2: Requiem (Batoru rowaiaru II: Chinkonka),Action|Drama|Thriller|War
+53,4763995193397,2020-04-13,5:05:24,"Hole in the Head, A",Comedy|Musical
+54,3567416345561481,2020-04-13,16:38:41,Loosies,Comedy|Drama|Romance
+55,4405771558459862,2020-04-13,12:43:23,Faces of Death 4,Documentary|Horror
+56,3528507223382483,2020-04-13,9:45:57,"Last American Hero, The",Action|Drama
+57,3556808669122929,2020-04-13,22:52:04,North (Nord),Comedy|Drama
+58,5602232052670080,2020-04-13,1:12:39,Appaloosa,Western
+59,5018707584619646,2020-04-13,15:37:56,Helvetica,Documentary
+60,3533497708486525,2020-04-13,15:43:58,Wuthering Heights,
+61,676359827336328471,2020-04-13,16:38:45,"Man Who Left His Will on Film, The (Tôkyô sensô sengo hiwa)",Drama
+62,30087417775617,2020-04-13,19:47:11,The Kiss of Her Flesh,Horror|Thriller
+63,6767337385779426391,2020-04-13,15:47:43,Excess Baggage,Adventure|Romance
+64,3589595401890001,2020-04-13,11:19:07,Manny,Documentary|Drama
+65,5048370458544392,2020-04-13,13:55:54,"Fast Food, Fast Women",Comedy|Romance
+66,3538556185247109,2020-04-13,5:12:57,Meatballs,Comedy
+67,3535388944019279,2020-04-13,18:11:36,"Time to Kill, A",Drama|Thriller
+68,6374221601298059,2020-04-13,17:10:51,"Pink Ribbons, Inc.",Documentary
+69,30334712774766,2020-04-13,3:40:46,Sammy and Rosie Get Laid,Comedy|Drama
+70,5198834596389497,2020-04-13,5:49:47,"Flight That Fought Back, The",Drama
+71,5567247072848782,2020-04-13,13:55:34,"Groomsmen, The",Comedy|Drama|Romance
+72,5509339436190075,2020-04-13,16:29:29,"American Astronaut, The",Comedy|Musical|Sci-Fi
+73,3556812575067814,2020-04-13,10:54:08,"I Love You, I Love You (Je t'aime je t'aime)",
+74,5602245057820121047,2020-04-13,6:09:02,Shadows of Our Forgotten Ancestors (Tini zabutykh predkiv),Drama|Romance
+75,3557212101842989,2020-04-13,18:48:35,Live Nude Girls Unite!,
+76,67061868202610064,2020-04-13,11:13:55,Sunset,Action|Comedy|Thriller|Western
+77,490581268152343649,2020-04-13,20:37:53,Zero Day,Drama
+78,5537306437798996,2020-04-13,12:17:49,Arizona Dream,Comedy|Drama|Fantasy|Romance
+79,3570567381133935,2020-04-13,18:12:26,"Collection, The",Action|Horror|Thriller
+80,4405420396203112,2020-04-13,3:49:23,"Symphonie pastorale, La",
+81,3566499050539224,2020-04-13,11:17:08,Brother Orchid,Comedy|Crime|Drama|Romance
+82,374283658296983,2020-04-13,22:36:39,Gravity,Action|Sci-Fi|IMAX
+83,3545366126028233,2020-04-13,5:53:28,"Yellow Cab Man, The",Comedy|Drama|Romance
+84,3576085550454036,2020-04-13,4:19:20,Bratz: The Movie,Comedy
+85,3577032721411783,2020-04-13,9:32:47,This Island Earth,Sci-Fi
+86,5602242717184120,2020-04-13,23:32:05,"Endurance: Shackleton's Legendary Antarctic Expedition, The",Documentary
+87,6761706544124199,2020-04-13,18:07:11,Public Access,Drama|Thriller
+88,371221685797808,2020-04-13,4:32:36,"She Does Not Drink, Smoke or Flirt But... She Talks",Comedy
+89,30448253377852,2020-04-13,3:11:34,Plaza Suite,Comedy
+90,6334383696208092535,2020-04-13,19:59:19,"Boys, Les",Comedy
+91,3573597839398704,2020-04-13,3:00:41,Love Ghost (Shibito no koiwazura),Horror
+92,346987358663194,2020-04-13,19:43:52,Let's Make Love,Comedy|Musical|Romance
+93,3535564407822819,2020-04-13,22:00:25,Strongman,Documentary
+94,3570466094054175,2020-04-13,8:16:58,Summer Holiday,Musical
+95,3544146290662822,2020-04-13,19:54:33,The Hornet's Nest,Documentary|War
+96,5100131598323401,2020-04-13,20:09:00,"Tiger of Eschnapur, The (Tiger von Eschnapur, Der)",Adventure|Romance
+97,5100148839005050,2020-04-13,13:12:00,When I Walk,Documentary
+98,374288440319464,2020-04-13,3:41:41,Hunter Prey,Sci-Fi
+99,5510297578983128,2020-04-13,0:28:37,Sparrows,Drama
+100,3551001371712725,2020-04-13,8:33:49,21 Grams,Crime|Drama|Mystery|Romance|Thriller
+101,6763623589541120,2020-04-13,17:05:02,Hunger (Sult),Drama
+102,201859648872345,2020-04-13,6:37:11,"Gospel of Judas, The",Documentary
+103,6771335747015005442,2020-04-13,9:12:30,"Dead Calling, A",Horror
+104,3582920561013672,2020-04-13,18:45:54,Breath (Soom),Drama
+105,30101253183735,2020-04-13,8:56:10,Mona and the Time of Burning Love (Mona ja palavan rakkauden aika)),Drama
+106,6331102677216518,2020-04-13,4:31:28,"Cheerleaders, The",Comedy
+107,3575897062890544,2020-04-13,17:48:39,The Referee,Comedy
+108,30182308533546,2020-04-13,5:16:43,Pretty Things,Drama
+109,3535203702941889,2020-04-13,22:56:20,Mother of George,Drama
+110,3531490740650259,2020-04-13,1:28:21,Dirt,Comedy|Crime
+111,3589951188220666,2020-04-13,10:23:33,Just Between Friends,Drama
+112,3529400349515971,2020-04-13,6:53:03,"Day After, The",Drama|Sci-Fi
+113,4017950884643320,2020-04-13,12:36:12,Awesome; I Fuckin Shot That!,Documentary|Musical
+114,5048372456388392,2020-04-13,16:27:45,Cannery Row,Drama
+115,3557147462491119,2020-04-13,6:49:35,Collateral Damage,Action|Thriller
+116,342176167783419,2020-04-13,0:30:58,Big Stan,
+117,3579294544465762,2020-04-13,10:44:51,Over Your Cities Grass Will Grow,Documentary
+118,3565342383236491,2020-04-13,13:42:44,I'll Be There,Comedy|Musical|Romance
+119,201755138832874,2020-04-13,7:36:11,Chico & Rita,Animation|Musical|Romance
+120,3541825397115403,2020-04-13,3:17:59,Dr. Goldfoot and the Girl Bombs (Le spie vengono dal semifreddo),
+121,3550549815657170,2020-04-13,2:07:41,3000 Miles to Graceland,Action|Thriller
+122,3546539339554323,2020-04-13,22:02:41,Meat the Truth,Documentary
+123,3583891725117726,2020-04-13,23:18:43,Memories of Me,Comedy|Drama
+124,3538441436664180,2020-04-13,22:03:56,Feast II: Sloppy Seconds,Action|Comedy|Horror|Thriller
+125,5602211579059233,2020-04-13,19:35:50,"Charge of the Light Brigade, The",Drama|War
+126,201543813343437,2020-04-13,4:33:49,Wavelength,Drama
+127,6378045916102581,2020-04-13,7:52:00,Used Cars,Comedy
+128,6771809621259959,2020-04-13,6:16:11,Spy Kids 2: The Island of Lost Dreams,Adventure|Children
+129,3528803569202454,2020-04-13,15:47:10,Imagine I'm Beautiful,Drama
+130,3578755153450163,2020-04-13,21:31:59,Weekend (a.k.a. Le Week-end) (Week End),
+131,3554254160223589,2020-04-13,22:41:46,Ama lur (Tierra Madre),Documentary
+132,3569724219351592,2020-04-13,5:38:49,"Ungentlemanly Act, An",Action|Documentary|Drama|War
+133,4041598584711895,2020-04-13,16:08:23,"Hunger Games, The",Action|Adventure|Drama|Sci-Fi|Thriller
+134,3575593880330124,2020-04-13,1:16:36,Cast a Dark Shadow (Angel),Thriller
+135,3579431718227368,2020-04-13,12:23:20,Johnny Express,
+136,3581138516179016,2020-04-13,13:46:00,Achilles and the Tortoise (Akiresu to kame),Comedy
+137,3585841524864158,2020-04-13,12:11:29,Shanghai Noon,Action|Adventure|Comedy|Western
+138,5587363038077717,2020-04-13,12:57:19,Battle Hymn,Drama
+139,30491860108526,2020-04-13,4:34:05,Adrift (À Deriva),Drama
+140,3562127200046378,2020-04-13,19:09:46,Where the Heart Is,Comedy|Drama
+141,5048379372287533,2020-04-13,9:45:15,Bedlam,Drama|Horror
+142,5602213044188209,2020-04-13,17:51:30,Stay Tuned,Comedy
+143,4903081906269300720,2020-04-13,4:27:17,"Kiss of the Vampire, The",Horror
+144,3534346373678677,2020-04-13,21:39:17,"Quickie, The",Crime|Drama
+145,6304292183757619,2020-04-13,6:49:19,"Killing, The",Crime|Film-Noir
+146,3539019106590098,2020-04-13,5:39:29,"Bridge of San Luis Rey, The",Drama
+147,4917627723828095,2020-04-13,2:19:06,Nicht alle waren Mörder,Drama|War
+148,201974623880476,2020-04-13,0:17:53,I Never Promised You a Rose Garden,Drama
+149,50386515933336436,2020-04-13,21:52:20,"Acapulco, First Beach... To the Left",Comedy
+150,4508117481736420,2020-04-13,6:03:08,Vinyan,Drama|Horror|Thriller
+151,201689984859246,2020-04-13,1:00:14,Camera Obscura,Crime|Drama|Thriller
+152,201497401578997,2020-04-13,6:06:30,"Terminator, The",Action|Sci-Fi|Thriller
+153,3541331477671811,2020-04-13,5:27:28,Scandali nudi,(no genres listed)
+154,3558624698936033,2020-04-13,14:29:20,Ready to Rumble,Comedy
+155,6709954866286403522,2020-04-13,7:39:19,XX/XY,Drama|Romance
+156,3547039064489265,2020-04-13,16:16:56,This Is Elvis,Documentary|Drama|Musical
+157,3580948238197224,2020-04-13,2:13:50,"Wedding Night, The",Drama|Romance
+158,3530313317713634,2020-04-13,13:46:59,Midnight Dancers (Sibak),Comedy|Drama
+159,201823760668444,2020-04-13,10:00:21,Money for Nothing,Comedy|Crime
+160,3547609990867014,2020-04-13,10:52:20,"Union: The Business Behind Getting High, The",Comedy|Documentary
+161,5020866663172368,2020-04-13,7:10:54,Cleopatra,Drama|Romance
+162,3542230914115565,2020-04-13,16:44:22,Beyond Enemy Lines (Framom främsta linjen),Drama|War
+163,5610882175227810,2020-04-13,20:35:56,My Mother's Courage (Mutters Courage),Comedy
+164,3535483693021640,2020-04-13,16:35:58,"Duellists, The",Action|War
+165,5007667566676894,2020-04-13,3:47:37,Jumbo (Billy Rose's Jumbo),Comedy|Musical|Romance
+166,3569385773785342,2020-04-13,22:23:22,X: The Unknown,Horror|Sci-Fi
+167,3585534499498165,2020-04-13,1:33:40,"Artist, The (El Artista)",Comedy|Drama
+168,3537899746201814,2020-04-13,7:32:34,Tristram Shandy: A Cock and Bull Story,Comedy|Drama
+169,3561639945235059,2020-04-13,17:58:29,Cirque du Soleil: Dralion,Fantasy|Musical|Mystery
+170,3532326231148545,2020-04-13,10:37:34,Mahjong (Ma jiang),Comedy|Drama
+171,347255214901896,2020-04-13,3:24:00,Young Gods (Hymypoika),Drama
+172,5048371982852558,2020-04-13,11:32:30,"Fighting Spirit, The",Documentary
+173,5602236311209838,2020-04-13,17:23:03,"Hills Run Red, The",Horror
+174,5333516217693102,2020-04-13,16:22:43,Jauja,Drama|Western
+175,4844410170286259,2020-04-13,18:07:45,"Great Dictator, The",Comedy|Drama|War
+176,30076656947573,2020-04-13,15:27:03,Destruction Force,Crime
+177,676378084792310521,2020-04-13,12:30:49,Heart of America,Drama
+178,4017958141905432,2020-04-13,6:04:51,Satanas,Crime|Drama
+179,3560795311828082,2020-04-13,9:40:08,"Mating Game, The",Comedy|Romance
+180,5158642930898968,2020-04-13,23:57:28,Maya Lin: A Strong Clear Vision,Documentary
+181,4508194787974120,2020-04-13,18:32:21,Island at War,Drama|War
+182,5610466703819827889,2020-04-13,15:55:59,Crumb,Documentary
+183,56022181204818458,2020-04-13,22:14:56,Box of Moon Light,Comedy|Drama
+184,4405044878137679,2020-04-13,3:24:11,Beyond the Poseidon Adventure,Adventure
+185,4905636425234783154,2020-04-13,18:52:13,"Going Places (Valseuses, Les)",Comedy|Crime|Drama
+186,670614255768141671,2020-04-13,7:49:07,Strangeland,Thriller
+187,4844785616074744,2020-04-13,4:38:51,Girl Model,Documentary
+188,3574544882003772,2020-04-13,2:55:51,Won't Anybody Listen?,Documentary
+189,3579588723437652,2020-04-13,8:53:34,Notorious C.H.O.,Comedy
+190,633387691096056194,2020-04-13,11:21:42,G.I. Joe: Retaliation,Action|Adventure|Sci-Fi|Thriller|IMAX
+191,6371922409511477,2020-04-13,15:28:26,Paradise,Drama
+192,561020777578601999,2020-04-13,20:32:16,"Santa Clause 2, The",Children|Comedy|Fantasy|Romance
+193,3579412679179624,2020-04-13,1:55:24,Gory Gory Hallelujah,Comedy|Fantasy|Horror
+194,3587576911417420,2020-04-13,18:43:36,When in Rome,
+195,201480435318846,2020-04-13,3:47:40,Cold Turkey,Comedy
+196,3540798809279391,2020-04-13,0:53:27,Alien Space Avenger,Comedy|Horror|Sci-Fi
+197,3541801663800820,2020-04-13,16:43:27,Beloved (Les bien-aimées),Drama|Musical|Romance
+198,6334552333111451328,2020-04-13,11:48:21,Children of the Living Dead,Horror|Thriller
+199,379211323420659,2020-04-13,4:08:22,Secretariat,Adventure|Drama
+200,4903116759983376,2020-04-13,4:51:31,Sweet Movie,
+201,3554984883386335,2020-04-13,15:46:13,Hoodwinked Too! Hood vs. Evil,Animation|Comedy
+202,5100178297947550,2020-04-13,4:57:51,"Ring Two, The",Drama|Horror|Mystery|Thriller
+203,374622035717825,2020-04-13,17:49:22,Charlie Chan's Courage,Mystery
+204,6761469217425233,2020-04-13,5:02:29,Dog Tags,Drama|Romance
+205,3588572813291731,2020-04-13,17:48:00,"Most Dangerous Game, The",
+206,5276257566576114,2020-04-13,15:06:31,"Alexander and the Terrible, Horrible, No Good, Very Bad Day",Comedy
+207,6389642354505692,2020-04-13,13:53:58,Reckless,Comedy|Drama|Romance
+208,676376683336961509,2020-04-13,23:31:47,Destination Moon,Sci-Fi
+209,5159035770154270,2020-04-13,8:01:19,Tomcats,Comedy
+210,5602245722128834,2020-04-13,8:24:11,Fightville,Documentary
+211,6709217838029149,2020-04-13,12:27:31,2012,Action|Drama|Sci-Fi|Thriller
+212,3562047643571149,2020-04-13,14:44:21,Perfumed Nightmare,Comedy|Drama
+213,3589318935057009,2020-04-13,7:11:35,"World Unseen, The",Drama|Romance
+214,3577137085595582,2020-04-13,5:18:13,"Lion King II: Simba's Pride, The",Adventure|Animation|Children|Musical|Romance
+215,3544271979300575,2020-04-13,5:40:59,The Menacing Eye,(no genres listed)
+216,3574705885671689,2020-04-13,4:43:40,Critical Care,Comedy|Drama
+217,3567172986236129,2020-04-13,21:32:55,Lap Dance,Drama
+218,3580338402374082,2020-04-13,2:30:21,"Alarmist, The (a.k.a. Life During Wartime)",Comedy
+219,561060741627164608,2020-04-13,8:01:31,Ricochet,Action|Crime|Thriller
+220,3553385479011223,2020-04-13,18:26:58,Black Roses ,Horror|Musical
+221,4127970916279114,2020-04-13,7:50:56,Like Mike,
+222,3564648004056477,2020-04-13,8:34:19,Crash,Crime|Drama
+223,3543622805271706,2020-04-13,23:28:39,Cookie's Fortune,Comedy|Drama
+224,3548108763412297,2020-04-13,11:45:51,Disco Godfather,
+225,6762652264746549,2020-04-13,2:24:36,Love and Death on Long Island,Comedy|Drama
+226,4041372319384,2020-04-13,15:49:39,Garfield: A Tail of Two Kitties,Animation|Children|Comedy
+227,3588438593246578,2020-04-13,16:06:11,Just a Kiss,Comedy|Romance
+228,4041375167456937,2020-04-13,22:08:45,"Evening with Kevin Smith 2: Evening Harder, An",Comedy|Documentary
+229,4041372727736692,2020-04-13,2:43:23,Coming Out,Drama
+230,337941513083732,2020-04-13,3:31:11,"Loves of Carmen, The",Drama
+231,36368993846897,2020-04-13,8:54:06,Flower in Hell (Jiokhwa),Crime|Drama
+232,6334470107656471,2020-04-13,4:33:26,"Snows of Kilimanjaro, The (Neiges du Kilimandjaro, Les)",Drama
+233,372301469981833,2020-04-13,7:19:53,Attack the Block,Action|Comedy|Sci-Fi
+234,3534734014519501,2020-04-13,4:21:33,Autumn in New York,Drama|Romance
+235,560221127885815818,2020-04-13,2:54:00,Returner (Ritaanaa),Action|Adventure|Sci-Fi
+236,3533649415714728,2020-04-13,0:08:48,Futurama: Bender's Game,Action|Adventure|Animation|Comedy|Fantasy|Sci-Fi
+237,3538275720263063,2020-04-13,3:27:03,"Designated Mourner, The",Drama
+238,3552852450403068,2020-04-13,5:43:19,"Man Who Wasn't There, The",Crime|Drama
+239,564182800107282087,2020-04-13,11:19:18,"Punk Singer, The",Documentary
+240,3541778154282215,2020-04-13,12:33:11,American Ninja 4: The Annihilation,Action
+241,3559265593022229,2020-04-13,15:38:03,Basquiat,Drama
+242,6761247054380659996,2020-04-13,4:53:12,Criminal Lovers,Crime|Drama|Romance|Thriller
+243,56022236188233619,2020-04-13,17:52:44,Sunday,Drama|Romance
+244,3553767758891476,2020-04-13,1:11:05,"Beautician and the Beast, The",Comedy|Romance
+245,4936118619919708,2020-04-13,13:42:09,"Big Circus, The",Drama
+246,374288336261192,2020-04-13,0:48:17,Payday,Drama
+247,3533074309998388,2020-04-13,8:31:37,Company Man,Comedy
+248,5602228629776178,2020-04-13,5:54:19,2010: The Year We Make Contact,Sci-Fi
+249,490503304695365289,2020-04-13,0:57:28,The Emperor of California,Western
+250,344979651869885,2020-04-13,13:17:05,Eddie and the Cruisers II: Eddie Lives!,Drama|Musical
+251,6331106510675421097,2020-04-13,6:16:22,"Home of Our Own, A",Drama
+252,5479056843835730,2020-04-13,15:35:51,Come Dance with Me!,Crime|Drama|Mystery
+253,3528827743314638,2020-04-13,15:51:59,Babes in Toyland,Children|Fantasy|Musical
+254,3547253349513639,2020-04-13,20:23:55,Blades of Glory,Comedy|Romance
+255,30360786463226,2020-04-13,0:24:56,The Little Matchgirl,Animation
+256,6398723311547370,2020-04-13,14:41:10,Gardenia,Crime
+257,372791209627185,2020-04-13,22:25:05,"Ghost Writer, The",Drama|Mystery|Thriller
+258,3584517787276311,2020-04-13,7:03:30,"Perfect Family, The",Comedy|Drama
+259,3531842478593301,2020-04-13,14:31:12,"Internship, The",Comedy
+260,5100146460752669,2020-04-13,5:41:58,Captain Video: Master of the Stratosphere,Adventure|Sci-Fi
+261,3565895609990324,2020-04-13,5:33:06,Samurai Banners (Fûrin kazan),Action|Adventure|Drama|War
+262,5602219712684460,2020-04-13,20:36:28,"Hangover, The",Comedy|Crime
+263,560223990662985189,2020-04-13,9:44:22,Dead of Night,Horror|Mystery
+264,3563530843466201,2020-04-13,3:30:05,Attack of the 50ft Cheerleader,Comedy
+265,3557619234270229,2020-04-13,7:29:36,Vamp,Comedy|Horror
+266,3572317133418657,2020-04-13,6:09:07,Stop! Or My Mom Will Shoot,Action|Comedy
+267,6762844469924563,2020-04-13,21:16:17,Half Past Dead,Action|Crime|Thriller
+268,3545741441941114,2020-04-13,3:16:38,Sharkwater,Documentary
+269,3553887305894839,2020-04-13,12:02:28,My Brother the Terrorist,Documentary
+270,30293295424183,2020-04-13,21:00:08,Man Facing Southeast (Hombre mirando al sudeste),Drama|Sci-Fi
+271,201663782946281,2020-04-13,11:03:42,Saboteur,
+272,374622726056327,2020-04-13,15:37:28,Midnight Dancers (Sibak),Comedy|Drama
+273,30037430293031,2020-04-13,12:51:08,Gasht-e ershad,Comedy|Crime|Drama|Romance
+274,3528016361311684,2020-04-13,9:20:50,"Temptress, The",Drama|Romance
+275,374622949962723,2020-04-13,14:03:27,Money (L'argent),Crime|Drama
+276,3556371651511369,2020-04-13,8:06:22,"Open Road, The",Comedy|Drama
+277,3546387957676857,2020-04-13,15:55:35,This Sporting Life,Drama
+278,3562885645819374,2020-04-13,15:19:41,Dark Girls,Documentary
+279,3528124141517826,2020-04-13,4:26:21,Stage Beauty,Drama
+280,5048375498267359,2020-04-13,4:19:14,Pirates of the Caribbean: On Stranger Tides,Action|Adventure|Fantasy|IMAX
+281,3532974910296349,2020-04-13,20:24:29,"Summer's Tale, A (Conte d'été)",Comedy|Drama|Romance
+282,3571636666370394,2020-04-13,0:22:54,Brimstone and Treacle,Drama|Thriller
+283,3554400888610231,2020-04-13,13:37:27,Memories (Memorîzu),Animation|Fantasy|Sci-Fi|Thriller
+284,5602226689493130,2020-04-13,17:07:46,Lucky Luke: The Ballad of the Daltons,Animation|Children|Comedy|Western
+285,490346762181481335,2020-04-13,8:14:13,Suicide Club (Jisatsu saakuru),Horror|Mystery|Thriller
+286,3569843930081070,2020-04-13,17:48:07,Doggiewoggiez! Poochiewoochiez!,Comedy
+287,3587808032351067,2020-04-13,4:53:25,Adventure in Baltimore,Comedy|Drama
+288,3530344979142994,2020-04-13,10:09:23,Hotel Terminus: The Life and Times of Klaus Barbie (Hôtel Terminus),Documentary
+289,4911470575402534180,2020-04-13,5:37:17,Ironclads,Drama|Romance|War
+290,3567497731001548,2020-04-13,15:22:20,Uncertainty,Action|Crime|Drama|Fantasy|Romance
+291,4041371923871,2020-04-13,9:38:53,"Texas Chainsaw Massacre, The",
+292,3561180195535260,2020-04-13,8:11:34,Sweetgrass,Adventure|Documentary|Western
+293,5108759690502613,2020-04-13,7:23:59,Under the Volcano,Drama
+294,5602230981888138,2020-04-13,16:08:21,Game 6,Comedy|Drama
+295,6304555912027510085,2020-04-13,3:23:58,Our Family Wedding,Comedy
+296,3540055533325622,2020-04-13,12:08:53,Fairhaven,Drama
+297,3544918179543475,2020-04-13,22:39:16,"Hidden Blade, The (Kakushi ken oni no tsume)",Action|Drama|Romance
+298,3588097869355529,2020-04-13,1:50:07,Dakota,Western
+299,5893557057521088,2020-04-13,2:20:19,Why Man Creates,
+300,4175004157437420,2020-04-13,9:54:12,Quatre garçons pleins d'avenir,Comedy
+301,5602243193937860367,2020-04-13,20:45:36,Heroic Cops (Jing wang shuang xiong),Action|Crime
+302,5314063034214179,2020-04-13,20:55:57,"Embalmer, The (Imbalsamatore, L')",Drama
+303,5532858024057256,2020-04-13,12:28:13,Body Bags,Comedy|Horror|Sci-Fi|Thriller
+304,6759712570505979795,2020-04-13,6:37:05,Female Perversions,Drama
+305,5108758995146944,2020-04-13,19:04:05,"Hamlet, Prince of Denmark",Drama
+306,3561885318063376,2020-04-13,11:50:51,One Small Hitch,Comedy|Romance
+307,67624055274359834,2020-04-13,18:08:00,"Not for or Against (Quite the Contrary) (Ni pour, ni contre (bien au contraire))",Crime|Drama
+308,5641828289444133,2020-04-13,0:37:24,"Birders: The Central Park Effect (Central Park Effect, The)",Documentary
+309,3542905005598668,2020-04-13,23:05:01,Looking Forward,Drama
+310,5602243347991934,2020-04-13,8:29:44,Adventures of Power,Comedy|Musical
+311,3586206059267327,2020-04-13,19:20:28,Letters to Father Jacob (Postia pappi Jaakobille),
+312,3528224015049052,2020-04-13,18:49:28,Hugo Pool,Romance
+313,3538530122461941,2020-04-13,22:25:32,The Great Kidnapping,Action|Crime|Thriller
+314,374288863108865,2020-04-13,18:54:57,Paradise: Faith (Paradies: Glaube),
+315,4175001610062787,2020-04-13,3:21:10,My Girlfriend's Boyfriend,Comedy|Romance
+316,3563105731826806,2020-04-13,20:28:06,Lunopolis,Sci-Fi
+317,3580470739415443,2020-04-13,0:10:57,"Shepherd: Border Patrol, The",Action|Crime|Thriller
+318,5007661729173899,2020-04-13,5:08:05,Beverly Hills Cop III,Action|Comedy|Crime|Thriller
+319,6759414532578598853,2020-04-13,13:31:50,Best Laid Plans,Crime|Drama
+320,201947125316272,2020-04-13,18:46:11,Under the Domim Tree (Etz Hadomim Tafus),Drama
+321,3553971137202658,2020-04-13,14:47:35,Breaking the Maya Code,Documentary
+322,5602252388790899,2020-04-13,1:43:32,Short Night of the Glass Dolls (La corta notte delle bambole di vetro),Horror|Mystery|Thriller
+323,3554606954611156,2020-04-13,1:04:02,Monster in a Box,Comedy|Drama
+324,3567067913459754,2020-04-13,20:31:55,Just Between Friends,Drama
+325,4917276684458748,2020-04-13,6:25:38,Leaving Normal,Comedy|Drama
+326,5311041539640141,2020-04-13,22:49:31,Karen Cries on the Bus,Drama
+327,3538457022471418,2020-04-13,12:32:23,Stomp the Yard,Drama|Musical
+328,5377648813383296,2020-04-13,0:13:06,When You're Strange,Documentary
+329,3560781910762930,2020-04-13,0:44:23,Ocean Waves (Umi ga kikoeru),Animation|Drama|Romance
+330,5602255165449811,2020-04-13,15:14:38,"Man Who Knew Too Much, The",Adventure|Drama|Mystery|Thriller
+331,3534785816678879,2020-04-13,1:35:50,Hell House,
+332,337941635038895,2020-04-13,16:52:18,The Elephant Man,Drama
+333,3577836228461715,2020-04-13,19:20:06,The New Girlfriend,Drama
+334,30053539008063,2020-04-13,14:47:44,Jonah: A VeggieTales Movie,Animation|Children|Musical
+335,5445526833858620,2020-04-13,13:39:21,Groundhog Day,Comedy|Fantasy|Romance
+336,201506603818348,2020-04-13,7:40:33,Chesty: A Tribute to a Legend,Documentary
+337,3533568649049976,2020-04-13,13:16:15,"Prophecy II, The",Horror
+338,201777649788940,2020-04-13,20:48:49,"Man Called Peter, A",Drama
+339,5576973955028866,2020-04-13,13:30:47,Born Romantic,Comedy|Drama|Romance
+340,201412232114854,2020-04-13,10:30:49,Kismet,Adventure|Comedy|Fantasy|Musical|Romance
+341,3579948463306865,2020-04-13,11:06:08,Turbo: A Power Rangers Movie,Action|Adventure|Children
+342,6759266337993050137,2020-04-13,21:41:06,Night Ambush (Ill Met by Moonlight),Action|Adventure|Drama|War
+343,6331106776974216,2020-04-13,0:37:18,PoliWood,Documentary
+344,5602248293379141,2020-04-13,3:08:56,"Night Strangler, The",Crime|Horror|Mystery
+345,589301104955043128,2020-04-13,0:41:32,Spider-Man 3,
+346,3565034602757866,2020-04-13,21:02:08,Nothing Lasts Forever ,Comedy|Fantasy|Sci-Fi
+347,3557901746440833,2020-04-13,1:26:00,Poseidon,Action|Adventure|Thriller|IMAX
+348,4913057815626336,2020-04-13,2:29:18,Saved!,Comedy|Drama
+349,36662844698535,2020-04-13,22:26:04,Kummelin jackpot,Comedy
+350,6396498004980582,2020-04-13,19:49:47,What We Do in the Shadows,Comedy|Horror
+351,493659400076287385,2020-04-13,7:16:02,When a Man Loves a Woman,Drama|Romance
+352,5100174060376069,2020-04-13,22:23:48,Our Curse,Documentary
+353,4911351962902310549,2020-04-13,4:51:58,The Mysterious Island,Adventure|Sci-Fi
+354,501843648542935485,2020-04-13,21:14:46,Jim Carrey: Unnatural Act,Comedy|Documentary
+355,3541412186598535,2020-04-13,6:02:49,My Wife Is a Gangster (Jopog manura),Action|Comedy|Romance
+356,3567166886634268,2020-04-13,16:30:15,Antarctica,Adventure|Drama
+357,5100179484019997,2020-04-13,20:04:37,"Odds, The",Crime|Mystery
+358,3530745407634115,2020-04-13,12:35:41,Who Killed the Electric Car?,Documentary
+359,5563283913004396,2020-04-13,9:13:03,Fear of a Black Hat,Comedy
+360,3559822897381915,2020-04-13,16:06:14,Of Gods and Men (Des hommes et des dieux),Drama
+361,372301398192874,2020-04-13,7:49:46,As Long as You've Got Your Health (Tant qu'on a la santé),Comedy
+362,67061447084113271,2020-04-13,21:56:24,Pigsty (Porcile),Drama|Mystery
+363,3582786970604702,2020-04-13,19:41:50,Seven Years Bad Luck,Comedy
+364,5564789739332067,2020-04-13,0:14:00,2001 Maniacs,Comedy|Horror
+365,5007663181341469,2020-04-13,22:12:15,High Plains Drifter,Western
+366,3544676102467093,2020-04-13,21:58:43,April Showers,
+367,5100172169544520,2020-04-13,4:18:00,Bamako,Drama
+368,5602233724280803,2020-04-13,9:53:40,Autumn Ball (Sügisball),Drama
+369,3583255526824981,2020-04-13,17:18:21,Young People,Drama
+370,3540052616434033,2020-04-13,10:54:13,Unstoppable,Action|Adventure|Comedy|Drama|Thriller
+371,564182172240221186,2020-04-13,1:10:31,Secret Honor,Drama
+372,4936496890543029,2020-04-13,11:38:02,Short Circuit,Comedy|Sci-Fi
+373,4026567579654831,2020-04-13,21:07:31,Broken Windows,Drama
+374,5100137277497069,2020-04-13,9:14:13,Killer Joe,Crime|Thriller
+375,6331104831969123,2020-04-13,4:06:34,"Gladiators, The (Gladiatorerna)",Drama|Sci-Fi
+376,3556034337606546,2020-04-13,3:03:53,Shadow of the Holy Book (Pyhän kirjan varjo),Documentary
+377,564182133842953477,2020-04-13,13:14:41,The Whisperer in Darkness,Horror|Mystery|Sci-Fi|Thriller
+378,3529598129786736,2020-04-13,7:07:23,R.I.P.D.,Action|Comedy|Fantasy
+379,3578854579136660,2020-04-13,18:49:05,Flight Command,Drama|War
+380,5108751724589898,2020-04-13,1:55:27,"Yes Men, The",Documentary
+381,4405674715621665,2020-04-13,19:57:32,"Fog of War: Eleven Lessons from the Life of Robert S. McNamara, The",Documentary|War
+382,5602234165566734,2020-04-13,21:43:27,A Christmas Kiss,Romance
+383,630414706512548575,2020-04-13,21:51:04,Iron Man: Rise Of Technovore,Animation
+384,6334839768580818,2020-04-13,5:13:50,Nayak: The Hero,Drama
+385,3538052518296468,2020-04-13,3:10:12,Abouna,Drama
+386,490360356320656906,2020-04-13,9:31:54,Return to House on Haunted Hill,Horror|Thriller
+387,3583814760380140,2020-04-13,17:31:47,Strange Behavior,Horror|Mystery|Thriller
+388,3569704349323067,2020-04-13,13:57:13,"Godfather, The",
+389,4175001114956534,2020-04-13,23:54:07,Step Up 2 the Streets,Drama|Musical|Romance
+390,5048374291872077,2020-04-13,5:29:27,Road to Morocco,Comedy
+391,374288792938465,2020-04-13,8:23:22,How She Move,Drama
+392,3540170597136201,2020-04-13,11:21:10,Hostile Intentions,Action|Drama|Thriller
+393,6386760883025090,2020-04-13,3:13:47,"Mighty Macs, The",Drama
+394,4490721670080,2020-04-13,18:05:01,The Great Gatsby,Drama
+395,6761787488893254,2020-04-13,1:10:26,Siblings,Comedy
+396,3550110417844946,2020-04-13,0:27:21,Gold of Rome (L'oro di Roma),Drama
+397,3540802506597798,2020-04-13,9:18:09,Mirrors 2,Horror|Mystery|Thriller
+398,3549713642210488,2020-04-13,19:55:13,'R Xmas,Crime|Drama
+399,3579449961911652,2020-04-13,20:43:13,Quitting (Zuotian),Drama
+400,372301005529559,2020-04-13,21:08:13,Three Little Words,Comedy|Musical|Romance
+401,3555188258551015,2020-04-13,10:16:23,"Expendables, The",Action|Adventure|Thriller
+402,3535918821587657,2020-04-13,16:48:28,Stray Cat Rock: Delinquent Girl Boss (Nora-neko rokku: Onna banchô),Action|Crime
+403,5602248924855105,2020-04-13,1:27:55,Ca$h,Crime|Thriller
+404,560224999871817041,2020-04-13,10:33:40,Heavy Metal,
+405,5610130665209458177,2020-04-13,6:36:57,Julie & Julia,Comedy|Drama|Romance
+406,3554419067554788,2020-04-13,4:23:13,Why Has Bodhi-Dharma Left for the East?: A Zen Fable (Dharmaga tongjoguro kan kkadalgun),Drama
+407,3561637519802999,2020-04-13,23:44:23,Species II,Horror|Sci-Fi
+408,3568240910856426,2020-04-13,1:47:39,Hero at Large,Comedy
+409,3555285141391102,2020-04-13,4:36:02,Breaking In,Adventure|Comedy
+410,3555637275379958,2020-04-13,23:28:30,Nashville,Drama|Musical
+411,3587410668253442,2020-04-13,15:01:37,Rising Sun,
+412,3546393472821374,2020-04-13,9:49:26,Two Evil Eyes,Horror
+413,56022404225837939,2020-04-13,13:16:56,"Friend of the Deceased, A (Priyatel pokonika)",Comedy|Drama
+414,67637380393617416,2020-04-13,10:18:22,"Garden of the Finzi-Continis, The (Giardino dei Finzi-Contini, Il)",Drama
+415,5610547612064080,2020-04-13,2:38:03,Mega Piranha,Action|Adventure|Horror|Sci-Fi
+416,30153200068816,2020-04-13,14:47:26,Venus Beauty Institute (Vénus beauté),Comedy|Drama|Romance
+417,3562502180562968,2020-04-13,11:01:52,Nobody Loves Me (Keiner liebt mich),Comedy|Drama
+418,560222286641788526,2020-04-13,19:33:18,Testament,Drama
+419,3556781176751086,2020-04-13,8:32:25,King of Beggars (Mo jong yuen So Hat-Yi),Action|Comedy|Drama
+420,3582798263777442,2020-04-13,9:05:51,The Story of Robin Hood and His Merrie Men,Action|Adventure|Children
+421,3587285796016907,2020-04-13,11:02:36,"Call of the Wild, The",Action|Adventure|Drama|Romance|Western
+422,5100146158002518,2020-04-13,4:53:49,Bluebeard,Film-Noir|Horror
+423,3554315132532892,2020-04-13,0:32:41,"Hoax, The",Crime|Drama
+424,3568250618896756,2020-04-13,8:33:41,Inventing the Abbotts,Drama|Romance
+425,0604154320422353545,2020-04-13,22:56:57,Demon Seed,Horror|Sci-Fi|Thriller
+426,3529385592501358,2020-04-13,19:04:33,Klitschko,Documentary
+427,676740927367276108,2020-04-13,7:27:20,100 Years at the Movies,Documentary
+428,4041599112570,2020-04-13,23:55:19,I Saw What You Did,Thriller
+429,3538303002693474,2020-04-13,8:28:12,Dreams of  a Life,Documentary
+430,3553859160175851,2020-04-13,19:07:25,Stars,Drama|War
+431,201950978750803,2020-04-13,5:08:35,Grumpier Old Men,Comedy|Romance
+432,3555776008020057,2020-04-13,21:30:59,Gumshoe,Comedy|Crime|Drama|Mystery
+433,5100138783415769,2020-04-13,21:17:49,"Lebanon, Pa.",Drama
+434,5356851984977269,2020-04-13,0:26:48,Proof,Drama
+435,337941479434028,2020-04-13,18:34:41,More,Crime|Drama|Romance
+436,5381725529302267,2020-04-13,18:29:33,Gojoe: Spirit War Chronicle (Gojo reisenki: Gojoe),Drama
+437,5443283827994456,2020-04-13,9:40:27,Dying of Laughter (Muertos de Risa),Comedy
+438,676760151254318932,2020-04-13,18:23:31,"Book of Eli, The",Action|Adventure|Drama
+439,3571318712300184,2020-04-13,12:01:21,Lolita,
+440,3583763708882859,2020-04-13,8:51:03,Bells of Capistrano,Western
+441,4017956351712,2020-04-13,3:13:29,"Standing Aside, Watching",Drama
+442,30133930445856,2020-04-13,3:07:21,Josie and the Pussycats,Comedy
+443,3568107634038773,2020-04-13,23:28:29,Dead Silence,Horror|Mystery|Thriller
+444,5893476258773549,2020-04-13,9:18:29,Children of Invention,Drama
+445,4913786214798565,2020-04-13,2:07:41,Chicago,Comedy|Crime|Drama|Musical
+446,201972609402257,2020-04-13,7:59:09,Griffin & Phoenix,Comedy|Drama|Romance
+447,5100133395137596,2020-04-13,8:29:51,"American Tail: Fievel Goes West, An",Adventure|Animation|Children|Musical|Western
+448,3562757268470431,2020-04-13,13:35:05,Malcolm X,Drama
+449,3550482137821318,2020-04-13,23:36:13,HE Who Gets Slapped,Drama|Thriller
+450,377293851510566,2020-04-13,18:41:38,One Hundred Mornings,Drama
+451,30359229741107,2020-04-13,20:15:16,Deliver Us from Evil,
+452,3554823601304677,2020-04-13,14:08:36,"World According to Garp, The",Comedy|Drama|Romance
+453,201711489198837,2020-04-13,23:13:01,30 Minutes or Less,Action|Comedy|Crime
+454,3543507143342485,2020-04-13,15:59:38,Peeping Tom,Drama|Horror|Thriller
+455,4844487227452605,2020-04-13,8:29:56,Nobody Knows Anybody (Nadie conoce a nadie),Romance|Thriller
+456,3534396644313281,2020-04-13,12:33:44,Kama Sutra: A Tale of Love,Romance
+457,4917790965331937,2020-04-13,3:13:34,They Live,Action|Sci-Fi|Thriller
+458,3572008454563722,2020-04-13,17:48:25,"Lone Ranger, The",Adventure|Western
+459,4905424918107277,2020-04-13,11:38:57,Penny Serenade,Drama|Romance
+460,4844894456394335,2020-04-13,12:12:53,Une étudiante d'aujourd'hui,Documentary
+461,5493212177694712,2020-04-13,3:31:24,Freaky Friday,Children|Comedy|Fantasy
+462,633371476167299651,2020-04-13,13:34:31,Major Movie Star,Adventure|Comedy|Drama|War
+463,5602214949577801,2020-04-13,0:58:45,"Gorgeous Hussy, The",Drama
+464,6759022099418489,2020-04-13,4:47:13,Through the Forest,Drama
+465,3541299942425230,2020-04-13,18:13:03,Bionicle 3: Web of Shadows,Action|Adventure|Animation|Children
+466,3585250706685938,2020-04-13,17:57:58,"Big Day, The (We Met on the Vineyard)",Comedy
+467,3559472067366294,2020-04-13,11:11:18,Watchmen: Tales of the Black Freighter,Action|Adventure|Animation|Horror
+468,5610974225090813284,2020-04-13,4:09:19,Auschwitz: The Nazis and the 'Final Solution',Documentary
+469,5597245127764255,2020-04-13,10:01:17,Horrorvision,Horror
+470,633365668255702830,2020-04-13,11:37:17,Valentino,Drama
+471,676316752724452448,2020-04-13,20:29:56,"Pet, The",Drama|Thriller
+472,67090444906599873,2020-04-13,15:44:27,"Theory of Everything, The",Drama
+473,5602247256903525,2020-04-13,2:33:15,Faces of Death 4,Documentary|Horror
+474,3541527957254768,2020-04-13,22:58:38,Bonsái,Drama
+475,3584518488806380,2020-04-13,11:16:14,"History of Violence, A",Action|Crime|Drama|Thriller
+476,3530735634287514,2020-04-13,10:10:06,Nine,Drama|Musical|Romance
+477,5602212142917691,2020-04-13,13:20:33,Ten Tall Men,Action|Adventure|Comedy|War
+478,201797534544935,2020-04-13,9:11:39,Sex and the City 2,Comedy|Drama|Romance
+479,3535668586173975,2020-04-13,5:23:58,"Line, The (La linea)",Action|Crime|Drama|Thriller
+480,3533648529396760,2020-04-13,12:54:49,Some Body,Drama
+481,3563688901722756,2020-04-13,2:50:06,Still Life,Drama
+482,633301948917090643,2020-04-13,11:46:36,Camille,Comedy|Drama|Romance
+483,4041378541472125,2020-04-13,23:28:53,"Earth Is a Sinful Song, The (Maa on syntinen laulu)",Drama
+484,4844497785196296,2020-04-13,7:10:51,Shining Night: A Portrait of Composer Morten Lauridsen,Documentary
+485,201409730770377,2020-04-13,6:22:37,Ocean's Thirteen,Crime|Thriller
+486,30330695862552,2020-04-13,19:39:47,Barbarosa,Western
+487,5589992899550244,2020-04-13,2:59:33,Song of the Bloodred Flower (Laulu tulipunaisesta kukasta),Drama
+488,5551637126677195,2020-04-13,8:55:37,Appointment in Tokyo,Documentary|War
+489,3551305889836185,2020-04-13,22:10:33,Johnny English Reborn,Adventure|Comedy|Thriller
+490,3532905264855561,2020-04-13,18:38:10,My Little Chickadee,Comedy|Western
+491,5513457464382796,2020-04-13,17:16:52,Mary Reilly,Drama|Horror|Thriller
+492,5100143909004216,2020-04-13,4:19:41,Jailhouse Rock,Crime|Drama|Musical|Romance
+493,3553119791969945,2020-04-13,9:03:28,Garden State,Comedy|Drama|Romance
+494,5602219700879940138,2020-04-13,8:28:38,Lunopolis,
+495,5448158757343822,2020-04-13,2:32:07,Easy Money 2 (Snabba cash II),Action|Crime|Drama
+496,5100139800820965,2020-04-13,10:16:48,Across the Wide Missouri,Adventure|Romance|Western
+497,3558665036835767,2020-04-13,19:35:47,Saving God,Crime|Drama
+498,4041372957586346,2020-04-13,8:46:13,The Hatchet Man,Crime|Drama
+499,3554660125911029,2020-04-13,9:58:10,"Marsh, The",Horror|Thriller
+500,63044271839962225,2020-04-13,5:03:02,Blue,Drama
+501,5454483697156527,2020-04-13,17:45:16,3 Sailors and a Girl (Three Sailors and a Girl),Comedy|Musical
+502,3540556878103904,2020-04-13,20:11:37,Knight and Day,Action|Comedy|Thriller
+503,30194110700999,2020-04-13,19:41:31,"Ultramarines: A Warhammer 40,000 Movie",Animation|Sci-Fi
+504,4508124106740472,2020-04-13,1:06:07,Anotherworld,Drama|Romance
+505,6304254012332758,2020-04-13,7:23:58,Ordinary Decent Criminal,Comedy|Crime
+506,4903079960197824,2020-04-13,6:48:59,Radio,Drama
+507,5602254837398944,2020-04-13,19:04:47,Carrie,Drama|Horror
+508,5602253961376502,2020-04-13,16:18:29,"Barbary Coast Gent (Gold Town) (Honest Thief, The)",Comedy|Western
+509,4917864962415058,2020-04-13,23:38:41,Viy,Adventure|Fantasy|Mystery|Thriller
+510,6759449550987613,2020-04-13,9:36:20,Transamerica,Adventure|Comedy|Drama
+511,3573465252574559,2020-04-13,9:07:19,Torch Song Trilogy,Comedy|Drama|Romance
+512,5602214149326082,2020-04-13,8:15:56,Tracy Morgan: Black and Blue,Comedy
+513,3561395557301289,2020-04-13,22:02:02,"Miracle of Marcelino, The (Marcelino pan y vino)",Comedy|Drama
+514,3557884914686256,2020-04-13,9:59:05,"20,000 Days on Earth",Documentary|Drama|Musical
+515,6763230740577579,2020-04-13,22:37:28,"Ay, Carmela! (¡Ay, Carmela!)",Drama|War
+516,5893229034358254644,2020-04-13,0:40:46,The Missing,Crime|Drama|Mystery
+517,3578267994314962,2020-04-13,9:04:32,American Loser (Trainwreck: My Life as an Idiot),Comedy|Drama
+518,4017959811118,2020-04-13,3:42:21,"Catechism Cataclysm, The",Comedy
+519,06045647598375089,2020-04-13,10:40:57,Garage,Drama
+520,5100147875953959,2020-04-13,7:10:19,Whose Life Is It Anyway?,Drama
+521,3562935961321578,2020-04-13,4:44:06,Satan Never Sleeps,Drama|War
+522,67635521271033448,2020-04-13,15:39:31,Tropical Malady (Sud pralad),Drama|Fantasy|Romance
+523,6763450271848477328,2020-04-13,16:12:31,Big River Man,
+524,342281414266638,2020-04-13,2:57:48,Teen Wolf Too,Comedy
+525,3542335760458231,2020-04-13,12:53:14,Stonehenge Apocalypse,Sci-Fi
+526,3557109654028257,2020-04-13,13:47:49,First Name: Carmen (Prénom Carmen),Crime|Drama|Romance
+527,5007662485438658,2020-04-13,1:43:24,21 Hours at Munich,Drama
+528,4911173636214640,2020-04-13,18:02:58,"Auntie from Chicago, The (I theia apo to Chicago)",Comedy|Romance
+529,3549937795671424,2020-04-13,11:35:23,"Cookout, The",Comedy
+530,5602222893700766,2020-04-13,11:56:08,"Fountain, The",Drama|Fantasy|Romance
+531,6374612369171548,2020-04-13,11:18:33,Porky's II: The Next Day,Comedy
+532,5427178650764556,2020-04-13,15:57:11,McCabe & Mrs. Miller,Drama|Western
+533,3540100337470594,2020-04-13,4:56:51,41,Documentary
+534,5294207462562864,2020-04-13,13:13:25,Old San Francisco,Drama|Romance
+535,50207964155255527,2020-04-13,21:59:54,Outrage,Crime|Drama|Thriller
+536,3539086357672545,2020-04-13,18:39:51,Executioners from Shaolin,
+537,3581194865585246,2020-04-13,9:20:05,Girl Play,Comedy
+538,3585582662115504,2020-04-13,8:05:58,Ghosts of the Abyss,Documentary|IMAX
+539,060442541336644870,2020-04-13,10:47:10,Margaret's Museum,Drama
+540,6762033324731537415,2020-04-13,21:20:21,Night and the City,Crime|Drama
+541,3543104587254119,2020-04-13,5:09:18,"Perils of Pauline, The",Action
+542,3568342380133268,2020-04-13,0:50:33,"Beau Serge, Le",
+543,201456369844379,2020-04-13,7:58:24,"Constant Gardener, The",Drama|Thriller
+544,5358906340295620,2020-04-13,4:29:26,Kummelin jackpot,Comedy
+545,372072442515895,2020-04-13,18:50:52,"Personals, The (Zheng hun qi shi)",Drama
+546,67710054474356604,2020-04-13,1:33:07,Carny,Drama
+547,67098365314682260,2020-04-13,21:38:32,...And Justice for All,Drama|Thriller
+548,6334592102533186123,2020-04-13,2:29:08,Cuban Fury,Comedy
+549,376565813764493,2020-04-13,1:50:41,Dr. Crippen,Crime|Drama
+550,4041373981443868,2020-04-13,7:13:03,Straw Dogs,Drama|Thriller
+551,5641820705903405536,2020-04-13,5:45:09,Ricky Gervais Live 2: Politics,Comedy
+552,201712466946156,2020-04-13,14:24:44,Lucas,Drama|Romance
+553,6334374993341289545,2020-04-13,16:42:16,Boogeyman,Drama|Horror|Mystery|Thriller
+554,4913105701081288,2020-04-13,20:04:02,Caddyshack,Comedy
+555,50381779494930905,2020-04-13,9:19:53,Family Weekend,Comedy|Drama
+556,374288612641463,2020-04-13,3:41:43,Sweet Mud (Adama Meshuga'at),Drama
+557,5100148658399980,2020-04-13,10:58:09,"Message, The (a.k.a. Mohammad: Messenger of God)",Adventure|Drama|War
+558,3533319886842404,2020-04-13,14:22:23,"Fight, Zatoichi, Fight (Zatôichi kesshô-tabi) (Zatôichi 8)",Action|Adventure|Comedy|Drama
+559,5101604101091623,2020-04-13,0:56:57,Shark in Venice,Action|Horror|Thriller
+560,337941703646892,2020-04-13,14:09:51,Rogue Cop,Crime|Drama|Film-Noir
+561,4903625280321384681,2020-04-13,11:28:38,Secret of the Wings,Adventure|Animation|Children|Fantasy
+562,3568044195297060,2020-04-13,23:29:56,Sut (Milk),Drama
+563,5602238720994968,2020-04-13,2:54:30,No Flesh Shall Be Spared,Documentary
+564,5048371796469391,2020-04-13,18:42:27,True Crime,Crime|Thriller
+565,30228238682596,2020-04-13,3:15:18,Bleak Night,Drama
+566,5641820153254623,2020-04-13,0:00:22,"Cross: The Arthur Blessitt Story, The",Documentary
+567,493672056894630256,2020-04-13,5:08:21,Whatever Works,Comedy|Romance
+568,5002356682177814,2020-04-13,8:47:00,Far North,Drama|Romance|Thriller
+569,3572331629151169,2020-04-13,23:21:37,Pillow of Death,Mystery|Thriller
+570,670997103120384372,2020-04-13,11:42:26,For the Love of Benji,
+571,3547881453477645,2020-04-13,15:42:00,Himalaya (Himalaya - l'enfance d'un chef),Adventure|Drama
+572,3529168285598737,2020-04-13,18:51:25,My Last Day Without You (Nie mehr ohne Dich),Comedy|Drama|Romance
+573,3558923256732994,2020-04-13,21:46:36,"Funny Thing Happened on the Way to the Forum, A",Comedy|Musical
+574,3575563661129086,2020-04-13,15:03:39,Shamus,Crime|Mystery
+575,30280172079859,2020-04-13,10:01:36,Printed Rainbow,
+576,3569027168376036,2020-04-13,6:16:13,Crimes of the Future,Comedy|Sci-Fi
+577,4041374455439275,2020-04-13,17:58:53,"Servant, The",Drama
+578,201414134910439,2020-04-13,9:34:45,Black Butterflies,
+579,6333747848718798,2020-04-13,12:44:26,Service (Serbis),Drama
+580,3574103181420177,2020-04-13,19:54:10,"Like Sunday, Like Rain",Drama|Romance
+581,30444256193750,2020-04-13,5:14:53,Honeymoon,Horror
+582,4905556909672540255,2020-04-13,7:05:58,Great Expectations,Drama
+583,5602250931035309,2020-04-13,2:30:11,"Monsters, Inc.",Adventure|Animation|Children|Comedy|Fantasy
+584,348225174001432,2020-04-13,4:19:31,"Tuskegee Airmen, The",Drama|War
+585,3575769421410423,2020-04-13,23:06:49,Far,Drama
+586,3560521038102126,2020-04-13,5:11:26,99 and 44/100% Dead,Action|Adventure|Comedy|Crime
+587,6304217541949095,2020-04-13,11:55:02,Patience (After Sebald),Documentary
+588,5641823179192421,2020-04-13,2:49:49,"Drowning Pool, The",Mystery|Thriller
+589,4175000623387637,2020-04-13,6:21:22,Venus & Fleur,(no genres listed)
+590,561014679310649310,2020-04-13,4:06:14,The Anderssons in Greece: All Inclusive,Children|Comedy
+591,493668328901689021,2020-04-13,19:42:17,Sinners and Saints,Action|Crime
+592,4913248239776357,2020-04-13,16:34:26,Jungle de Ikou (Jungre de Ikou),Action|Comedy|Fantasy
+593,3579865983813917,2020-04-13,15:11:35,"White Sheik, The (Sceicco bianco, Lo)",Comedy|Romance
+594,374288976114693,2020-04-13,19:06:24,Deep Red (Profondo rosso),Horror|Mystery|Thriller
+595,3561463946210361,2020-04-13,19:28:31,Rio Grande,Romance|Western
+596,5020715329047343563,2020-04-13,8:35:31,Heavenly Creatures,Crime|Drama
+597,560224308024625311,2020-04-13,7:08:01,The Fox and the Hound 2,Adventure|Animation|Children|Comedy
+598,3551052088626989,2020-04-13,20:17:45,Belly,Crime|Drama
+599,3556581509459757,2020-04-13,13:12:27,The Snow Woman,Fantasy|Horror
+600,30087160292653,2020-04-13,17:04:54,"Skulls, The",Thriller
+601,6767796089269867,2020-04-13,11:44:07,"Proud and the Beautiful, The (Orgueilleux, Les) (Proud Ones, The)",Drama
+602,5002351389752688,2020-04-13,23:52:00,Death Racers,Action|Adventure|Comedy|Sci-Fi|Thriller
+603,3570765680915586,2020-04-13,8:47:09,Marie from the Bay of Angels (Marie Baie Des Anges),Drama
+604,30375967453119,2020-04-13,8:35:17,"Tom, Tom, the Piper's Son",Drama
+605,3583428461791347,2020-04-13,8:05:49,Summer of '62 (Cartouches gauloises),Drama|War
+606,5578349834350110,2020-04-13,3:31:41,Glenn Killing på Berns,Comedy
+607,4041594342362,2020-04-13,14:31:24,Go Figure (Va savoir),Comedy|Drama|Romance
+608,4905266711918564722,2020-04-13,20:39:04,"Messengers, The",Drama|Horror|Thriller
+609,337941400251186,2020-04-13,21:48:17,Jesus Christ Superstar,Drama|Musical
+610,5108758133024268,2020-04-13,0:03:19,In Vogue: The Editor?s Eye,Documentary
+611,4405938992774988,2020-04-13,15:39:18,Off the Menu: The Last Days of Chasen's,Documentary
+612,3576326990839869,2020-04-13,15:47:27,"Five Senses, The",Drama
+613,3559536864941762,2020-04-13,0:23:14,Escape to Athena,Action|Adventure|Comedy|War
+614,3566373562531740,2020-04-13,21:35:25,"Eagle Has Two Heads, The (L'aigle à deux têtes)",Drama
+615,56022129869679756,2020-04-13,6:00:18,Don't Make Waves,Comedy
+616,0604991973447255819,2020-04-13,21:00:09,Wrong Turn 4,Action|Horror|Thriller
+617,4017951275346,2020-04-13,12:38:23,[REC]²,Horror|Thriller
+618,5108755099964537,2020-04-13,17:48:53,"Last Exorcism, The",Horror|Thriller
+619,5602217510895504020,2020-04-13,4:22:56,Dracula,Horror
+620,3550769654966322,2020-04-13,9:30:49,Wing and a Prayer,Action|Drama|War
+621,201484690721058,2020-04-13,5:08:29,Les Invisibles,Documentary
+622,3545326383362469,2020-04-13,23:07:10,"House on Telegraph Hill, The",Drama|Film-Noir|Mystery|Thriller
+623,3561534790303237,2020-04-13,21:27:17,"Death of Mr. Lazarescu, The (Moartea domnului Lazarescu)",Drama
+624,5100145798511003,2020-04-13,3:32:48,Career,Drama
+625,4917145676776039,2020-04-13,13:35:12,"White Reindeer, The (Valkoinen peura)",Drama|Fantasy|Horror
+626,4041593547904,2020-04-13,1:39:52,Another Earth,Drama|Romance|Sci-Fi
+627,201521904150978,2020-04-13,18:22:38,Alice,Action|Adventure|Fantasy
+628,3552453402207549,2020-04-13,1:19:18,"Mudge Boy, The",Drama
+629,3558042620817801,2020-04-13,6:51:41,"Skeleton Key, The",Drama|Horror|Mystery|Thriller
+630,3556720063067149,2020-04-13,6:51:10,Badding,Comedy|Drama|Musical
+631,3565140788451933,2020-04-13,0:04:51,"Way of the Dragon, The (a.k.a. Return of the Dragon) (Meng long guo jiang)",Action|Crime
+632,3533398068896917,2020-04-13,19:16:30,Arizona Raiders,Western
+633,3546144253651310,2020-04-13,15:40:04,Guyana Tragedy: The Story of Jim Jones,Drama
+634,5048372387724301,2020-04-13,16:25:37,Viy,Adventure|Fantasy|Mystery|Thriller
+635,30569769004084,2020-04-13,6:26:23,One Man Against the Organization,(no genres listed)
+636,30185026722226,2020-04-13,2:43:36,"Marathon Family, The (Maratonci Trce Pocasni Krug)",Comedy
+637,3587060181480517,2020-04-13,1:02:20,Evil Dead,Horror
+638,5428077161174587,2020-04-13,9:33:53,We Don't Live Here Anymore,Drama
+639,6759864222653366906,2020-04-13,20:26:04,"Tree, The",Children|Drama
+640,6333147403388360,2020-04-13,22:00:57,Sprung,Comedy
+641,5108757605171078,2020-04-13,19:16:49,29th Street,Comedy
+642,3565752908696401,2020-04-13,22:34:39,You May Not Kiss the Bride,Action|Comedy|Crime|Romance
+643,4041376148995,2020-04-13,14:49:52,"Devil's Advocate, The",Drama|Mystery|Thriller
+644,201980707621405,2020-04-13,17:39:47,One Magic Christmas,Drama|Fantasy
+645,4508977183515889,2020-04-13,8:04:25,Rosencrantz and Guildenstern Are Undead,Comedy|Horror
+646,3571906405791642,2020-04-13,7:35:52,Waxworks (Das Wachsfigurenkabinett),Comedy|Drama|Romance|Thriller
+647,201790732967990,2020-04-13,10:32:01,Drive Thru,Comedy|Horror
+648,5587157950534790,2020-04-13,9:39:53,"Funhouse, The",Horror
+649,5593765465666774,2020-04-13,22:23:24,"Hand, The (Ruka)",Animation
+650,3576302950362473,2020-04-13,21:10:20,Simon Birch,Drama
+651,36541694300899,2020-04-13,13:37:18,"Very British Gangster, A",Crime|Documentary
+652,5602217764382983,2020-04-13,7:27:00,St Trinian's 2: The Legend of Fritton's Gold,Adventure|Comedy
+653,5415468420057959,2020-04-13,11:17:39,The Land Before Time IV: Journey Through the Mists,Adventure|Animation|Children
+654,6380928864972152,2020-04-13,12:57:47,Clubland (a.k.a. Introducing the Dwights),Comedy|Drama
+655,3550427705143439,2020-04-13,9:48:34,Aftermath,Action|Thriller
+656,3562729116561406,2020-04-13,8:27:50,Possession,Drama|Horror|Mystery|Romance|Thriller
+657,4017956927878740,2020-04-13,10:26:52,Hector and the Search for Happiness,Adventure|Comedy|Drama
+658,561063573897286481,2020-04-13,4:11:07,Freezer,Action|Thriller
+659,3558064517067605,2020-04-13,0:15:46,Jonestown: Paradise Lost,Documentary
+660,3576190250659304,2020-04-13,8:02:33,El asombroso mundo de Borjamari y Pocholo,(no genres listed)
+661,502052024153887106,2020-04-13,2:24:31,The... Beautiful Country,Comedy|Drama
+662,3575320709476072,2020-04-13,9:06:23,Judge Priest,Comedy|Drama|Romance
+663,3551036383305712,2020-04-13,2:20:37,Belle Starr,Western
+664,3530677400606396,2020-04-13,21:46:23,Miss Farkku-Suomi,Drama|Romance
+665,3567510259429071,2020-04-13,3:07:10,Gumshoe,Comedy|Crime|Drama|Mystery
+666,3560280317586901,2020-04-13,5:55:43,Ski Patrol,Action|Comedy
+667,5602223075902717,2020-04-13,18:42:47,"Good Guys and the Bad Guys, The",Comedy|Western
+668,3577190570928875,2020-04-13,10:15:09,"World of Apu, The (Apur Sansar)",Drama
+669,374283586873432,2020-04-13,2:41:10,Children of the Corn: Revelation,Horror|Thriller
+670,3567326892777044,2020-04-13,1:58:42,Fright Night 2: New Blood,Horror
+671,3541843210536085,2020-04-13,17:25:15,Mystery Road,Mystery|Thriller
+672,676777582890268951,2020-04-13,20:10:44,"Broadway Melody, The",Musical
+673,3573409981050911,2020-04-13,11:44:09,Nighthawks,Action|Drama
+674,5345743490882659,2020-04-13,4:18:59,Friends of God: A Road Trip with Alexandra Pelosi,Documentary
+675,6393678423518914,2020-04-13,7:05:12,"Chaperone, The",Action|Comedy
+676,337941599159554,2020-04-13,22:58:33,Blue Week (Sininen viikko),
+677,201823966797245,2020-04-13,10:39:46,Aankhen,Comedy|Crime|Thriller
+678,5602256815191977,2020-04-13,17:11:12,"Sexo, Amor e Traição",Comedy
+679,3540581566592986,2020-04-13,9:42:29,Planet of Dinosaurs,Drama|Sci-Fi
+680,3529540300997948,2020-04-13,5:26:23,Taistelu Näsilinnasta 1918,
+681,4913997738535652,2020-04-13,18:50:50,Enemy at the Gates,Drama|War
+682,3528498396771175,2020-04-13,15:10:51,Last Dance,Drama
+683,201511843145932,2020-04-13,12:07:12,"Legend of the 7 Golden Vampires, The",Action|Horror
+684,3570137400267088,2020-04-13,2:51:57,Earth (Tierra),Drama|Romance
+685,5482750449894514,2020-04-13,12:12:18,Stolen (Stolen Lives),Crime|Drama|Mystery|Thriller
+686,4917469004155363,2020-04-13,15:09:52,Prime Suspect,Crime|Drama|Mystery|Thriller
+687,3585850954905951,2020-04-13,23:10:17,Four more years (Fyra år till),
+688,5136193101627171,2020-04-13,0:51:00,"St. Valentine's Day Massacre, The",Crime|Drama
+689,374288211454110,2020-04-13,19:54:05,Brooklyn,Comedy|Drama|Romance
+690,201699444388280,2020-04-13,11:18:02,Bend of the River,Western
+691,6706643970502564,2020-04-13,7:58:49,Casino Jack,Comedy|Crime
+692,5100134733196468,2020-04-13,22:02:51,Sea of Love,Crime|Drama|Thriller
+693,3587317500274439,2020-04-13,23:28:43,Robinson Crusoe (Daniel Defoe's Robinson Crusoe),Adventure|Drama
+694,3542575070785217,2020-04-13,13:16:23,Texas Terror,Action|Romance|Western
+695,3547789304253620,2020-04-13,7:54:59,Sanjuro (Tsubaki Sanjûrô),Action|Adventure|Drama
+696,3535664097423330,2020-04-13,23:01:12,Gui Si (Silk),Drama|Horror|Mystery|Sci-Fi|Thriller
+697,50206128280725702,2020-04-13,1:35:06,Tenderness (Hellyys),Comedy
+698,3561911407608150,2020-04-13,19:17:04,God's Comedy (A Comédia de Deus),Comedy|Drama
+699,3534760032740886,2020-04-13,8:13:37,Ghost World,Comedy|Drama
+700,4041591063896,2020-04-13,18:57:41,Jack's Back ,Crime|Horror|Mystery|Thriller
+701,3558052661259557,2020-04-13,12:07:07,Guess Who,Comedy|Romance
+702,4936420166901661,2020-04-13,0:25:36,Chris Rock: Bigger & Blacker,Comedy
+703,3532503420699138,2020-04-13,16:39:14,"Place in the Sun, A (En plats i solen)",Crime|Drama|Thriller
+704,5602219468207060,2020-04-13,12:30:22,Chillerama,Comedy|Horror
+705,3568032294594412,2020-04-13,12:41:57,The Indifferent Beauty,(no genres listed)
+706,3530642327916286,2020-04-13,0:20:53,The Rise,Crime|Drama|Thriller
+707,5602251527371066,2020-04-13,0:03:46,"Panic in Needle Park, The",Drama|Romance
+708,5602248581715352,2020-04-13,13:54:30,Paint Your Wagon,Comedy|Musical|Western
+709,3540400938119628,2020-04-13,21:39:03,Capital (Le capital),Drama
+710,3558006039176893,2020-04-13,22:56:45,Darling,Drama
+711,3538239790249121,2020-04-13,21:45:56,Die Weihnachtsklempner,Comedy
+712,3564542736206395,2020-04-13,0:38:18,Corto Maltese in Siberia (Corto Maltese - La cour secrète des Arcanes),Adventure|Animation|Drama|Romance|War
+713,3571031578356568,2020-04-13,17:18:30,Company Business,Action|Comedy
+714,4917219951914092,2020-04-13,3:30:44,Gentlemen,Drama|Romance|Thriller
+715,5108755890258774,2020-04-13,15:59:21,"Slipper and the Rose, The",Adventure|Musical|Romance
+716,3574630077399214,2020-04-13,16:05:24,Pavement: Slow Century,Documentary
+717,3533601287528868,2020-04-13,19:16:01,Shooting Gallery,Crime|Drama|Thriller
+718,3582162415046323,2020-04-13,7:16:12,"Triumph of the Nerds, The: The Rise of Accidental Empires",Documentary
+719,5002355898172031,2020-04-13,20:28:29,Night of the Zombies (a.k.a. Batallion of the Living Dead),Horror|Sci-Fi
+720,3579808689176650,2020-04-13,4:36:22,Wrong Rosary (Uzak ihtimal),Drama
+721,3546640081761247,2020-04-13,22:25:36,Peas at 5:30 (Erbsen auf halb 6),
+722,50188517134459199,2020-04-13,11:24:00,"Courtship of Eddie's Father, The",Comedy
+723,4131244805700,2020-04-13,22:58:46,They Call Me Renegade,Action|Adventure|Comedy|Western
+724,5520041791901196,2020-04-13,21:21:55,"Presence, The",Drama|Horror|Thriller
+725,5048374040399893,2020-04-13,9:10:12,Dracula Untold,Action|Drama|Fantasy
+726,5010120262418596,2020-04-13,13:48:38,At Midnight I'll Take Your Soul (À Meia-Noite Levarei Sua Alma),Horror
+727,3583100506218509,2020-04-13,1:47:46,"Dylan Moran: Like, Totally",Comedy
+728,201656701601664,2020-04-13,3:51:38,Tom Petty and the Heartbreakers: Runnin' Down a Dream,Documentary|Musical
+729,5002352055627816,2020-04-13,13:23:31,Björk at the Royal Opera House,(no genres listed)
+730,3575479669482635,2020-04-13,22:05:28,"Concert, Le",Comedy|Drama
+731,4017955464516,2020-04-13,17:21:17,"Sunfish, The (Klumpfisken)",
+732,3564927666553843,2020-04-13,15:51:26,Through the Olive Trees (Zire darakhatan zeyton),Drama
+733,30476302711854,2020-04-13,23:08:32,Knights of Bloodsteel,
+734,3546287390275939,2020-04-13,9:27:26,Turtles Can Fly (Lakposhtha hâm parvaz mikonand),Drama|War
+735,50382490693161891,2020-04-13,17:06:24,To Kill with Intrigue (Jian hua yan yu Jiang Nan),Action|Drama
+736,3545629321095004,2020-04-13,0:00:52,"Truth About Charlie, The",Mystery|Thriller
+737,3570690202914281,2020-04-13,13:45:57,"Dirties, The",Drama
+738,4903443955514817486,2020-04-13,18:36:54,Bright Eyes,Comedy|Drama
+739,30265109634223,2020-04-13,6:31:54,Kapò,Drama|War
+740,3553057525261645,2020-04-13,18:46:02,This Is My Life,Comedy|Drama
+741,3542734396426135,2020-04-13,17:51:11,Love Hina Spring Special,Animation|Comedy|Musical|Romance
+742,3582860379138867,2020-04-13,15:26:52,"Year of the Wolf, The (Suden vuosi)",Drama|Romance
+743,4405076473485988,2020-04-13,11:46:29,Spawn,Action|Adventure|Sci-Fi|Thriller
+744,6304186739608542,2020-04-13,23:32:18,Dream Home (Wai dor lei ah yut ho),Horror
+745,4041374540366707,2020-04-13,20:58:27,Harvie Krumpet,Animation|Comedy|Drama
+746,3572577339479577,2020-04-13,14:24:45,Silent Souls (Ovsyanki),Drama
+747,5602214475222996,2020-04-13,14:09:57,Lord Love a Duck,Comedy
+748,5602245076139569,2020-04-13,0:24:01,Revolt of the Zombies,Horror|War
+749,633481951164411274,2020-04-13,10:20:17,"Violent Cop (Sono otoko, kyôbô ni tsuki)",Action|Crime|Drama|Thriller
+750,4774361688373416,2020-04-13,8:46:34,Glory to the Filmmaker! (Kantoku · Banzai!),
+751,3588677772551312,2020-04-13,15:16:09,"Auntie from Chicago, The (I theia apo to Chicago)",Comedy|Romance
+752,5133663295667038,2020-04-13,10:23:53,Lovecraft: Fear of the Unknown,Documentary
+753,30500914577013,2020-04-13,18:11:54,Hum Aapke Hain Koun...!,Comedy|Drama|Musical
+754,374288466988929,2020-04-13,22:44:16,A House of Secrets: Exploring 'Dragonwyck',Documentary
+755,5602230625707090,2020-04-13,3:56:55,"Boys from Fengkuei, The (Feng gui lai de ren)",Drama
+756,5602259170992682,2020-04-13,10:18:35,Garfield Gets Real,Animation|Children|Comedy
+757,4508348534513769,2020-04-13,1:18:34,American Buffalo,Crime|Drama
+758,5018799619217211381,2020-04-13,0:53:25,Bit by Bit,(no genres listed)
+759,337941817808560,2020-04-13,1:51:45,Seventh Son,Adventure|Children|Fantasy
+760,3542726034705086,2020-04-13,10:01:48,Janie Jones,Drama|Musical
+761,30141867109924,2020-04-13,16:26:44,Bangkok Dangerous,Action|Crime|Romance
+762,0604226763552768,2020-04-13,12:27:27,Jew Süss (Jud Süß),Drama
+763,06043814263528382,2020-04-13,5:12:53,Open Water 2: Adrift,Drama|Thriller
+764,3586518445919985,2020-04-13,18:41:11,"Along the Great Divide (Travelers, The)",Adventure|Romance|Western
+765,3587365674301561,2020-04-13,8:58:39,Sissi: The Young Empress (Sissi - Die Junge Kaiserin),Drama
+766,4913593837021379,2020-04-13,1:03:13,Divergent,Adventure|Romance|Sci-Fi|IMAX
+767,6334683514172227,2020-04-13,13:15:41,Magic Mike,Drama|Romance
+768,4903269977152450041,2020-04-13,7:57:29,The Man Without a Map,Mystery
+769,5007662699278858,2020-04-13,14:57:37,"Brighter Summer Day, A (Gu ling jie shao nian sha ren shi jian)",Drama|Romance
+770,6706197467040661,2020-04-13,4:28:32,Annapolis,Drama
+771,4041370552416,2020-04-13,9:51:13,"Prisoner of Shark Island, The",Drama
+772,4508466719552285,2020-04-13,8:34:51,"Peach Thief, The (Kradetzat na praskovi)",Drama|Romance|War
+773,3562098834106203,2020-04-13,18:37:43,Countess Dracula,Horror
+774,4905471695922048,2020-04-13,0:27:45,River of No Return,Adventure|Western
+775,3578326701212628,2020-04-13,17:18:30,Garfield's Halloween Adventure,Animation|Children
+776,3571436751646570,2020-04-13,6:09:23,D-War (Dragon Wars),Action|Adventure|Drama|Fantasy
+777,5602234563925748,2020-04-13,14:58:21,The Package,Action
+778,3550514040613067,2020-04-13,3:17:42,"Leopard Man, The",Drama|Horror|Mystery|Thriller
+779,6762215941080762987,2020-04-13,6:25:40,Batman Returns,
+780,3542241233040285,2020-04-13,3:25:41,Summer Stock,Comedy|Musical|Romance
+781,3529013767762460,2020-04-13,2:28:55,Detention,Action|Drama|Thriller
+782,5508829369244791,2020-04-13,11:03:09,Grindhouse,Action|Crime|Horror|Sci-Fi|Thriller
+783,6304870220474276202,2020-04-13,5:53:48,Angel's Leap,Crime
+784,6762964645590848326,2020-04-13,8:42:49,Million Dollar Baby,Drama
+785,3540840162087563,2020-04-13,6:36:33,Gone Nutty,Animation|Comedy
+786,5602237535537814,2020-04-13,3:08:20,Loser,Comedy
+787,67093470486220702,2020-04-13,1:52:28,Crush,Drama
+788,201932256257578,2020-04-13,18:18:31,"Rainmaker, The",Comedy|Romance|Thriller|Western
+789,3545903724254389,2020-04-13,16:38:43,Treasure of the Four Crowns,Adventure
+790,6334522245416663224,2020-04-13,7:18:54,Unzipped,Documentary
+791,3541167422859733,2020-04-13,15:21:55,American Yakuza,Action|Drama|Thriller
+792,6706640638279547573,2020-04-13,5:25:58,Forbidden Zone,Musical|Sci-Fi
+793,4175006473614616,2020-04-13,18:31:54,Those Daring Young Men in Their Jaunty Jalopies,Adventure|Comedy|Crime|Romance
+794,6333015339957460292,2020-04-13,12:06:36,"Assignment, The",Action|Thriller
+795,3585196019064768,2020-04-13,18:34:41,Tai Chi Zero,Action|Fantasy|Sci-Fi|IMAX
+796,6761978567324206843,2020-04-13,15:17:34,Assassin of the Tsar,Drama
+797,6706587561001445632,2020-04-13,9:24:51,"Greatest Love, The (Europa '51)",Drama
+798,3534327843899358,2020-04-13,22:12:45,"Don't Worry, I'm Fine (Je vais bien, ne t'en fais pas)",Drama
+799,3588445898521084,2020-04-13,15:20:59,"Living Skeleton, The (Kyûketsu dokuro-sen)",Horror
+800,56022481960355780,2020-04-13,5:03:26,"Paper Will Be Blue, The (Hîrtia va fi albastrã)",Action|Drama
+801,5108759773038220,2020-04-13,23:30:13,"Hospital, The",Comedy|Drama
+802,5610625599679979,2020-04-13,18:49:03,Act of Violence,Drama|Film-Noir|Thriller
+803,6382637993856628,2020-04-13,1:50:54,"Lonely Place to Die, A",Adventure|Crime|Thriller
+804,3545365178979905,2020-04-13,12:51:20,"Separation, The (Séparation, La)",Drama
+805,3572844785201651,2020-04-13,8:45:51,Four Bags Full,Comedy
+806,5602243739630686,2020-04-13,17:01:17,Happy New Year,Action|Comedy|Crime|Drama|Musical|Romance
+807,374622388601964,2020-04-13,3:15:15,Killer Movie,Comedy|Horror|Mystery|Thriller
+808,3587429338398551,2020-04-13,5:27:13,"Midnight Clear, A",Drama|War
+809,3560165134054508,2020-04-13,13:47:04,Intolerable Cruelty,Comedy|Romance
+810,493640720673429557,2020-04-13,21:16:58,Tokyo.Sora,
+811,6761958144726879,2020-04-13,8:52:56,Shrek the Halls,Adventure|Animation|Comedy|Fantasy
+812,56022148425766618,2020-04-13,21:47:15,Knock Off,Action
+813,676752644677475164,2020-04-13,16:28:22,Black Beauty,Children|Drama
+814,3572867105238962,2020-04-13,17:24:17,Opfergang,
+815,372301659001285,2020-04-13,5:56:50,Lille Fridolf and I,Comedy
+816,5602244130256493,2020-04-13,18:01:41,"Porn Theater (Chatte à deux têtes, La)",Drama
+817,3589930899432398,2020-04-13,2:47:06,National Gallery,Documentary
+818,5100179960046464,2020-04-13,16:37:46,"Phantom Carriage, The (Körkarlen)",Drama
+819,6384960378532145,2020-04-13,18:26:32,"Player, The",Comedy|Crime|Drama
+820,493694861461740691,2020-04-13,20:43:46,"Silent House, The (La casa muda)",Horror|Thriller
+821,3549707416469643,2020-04-13,19:39:13,Forks Over Knives,
+822,3533900935105107,2020-04-13,14:46:40,China Blue,Documentary
+823,30320072548130,2020-04-13,19:51:24,"Nightmare Before Christmas, The",
+824,201989695090770,2020-04-13,22:59:20,"Serious Man, A",Comedy|Drama
+825,3579185116269212,2020-04-13,11:05:48,Cherrybomb,Drama|Thriller
+826,30169336019697,2020-04-13,14:53:11,Amazing Johnathan: Wrong on Every Level,Comedy
+827,3552986491520637,2020-04-13,15:07:05,River Queen,Action|Adventure|Drama|Romance|War
+828,3550142020150171,2020-04-13,20:04:11,Samurai Spy (Ibun Sarutobi Sasuke),Action|Drama
+829,3551279412714468,2020-04-13,12:50:41,Year of the Dog,Comedy|Drama|Romance
+830,3543784562600764,2020-04-13,23:31:25,Between the Sheets (Entre Lençóis),Drama|Romance
+831,3565244846736614,2020-04-13,7:28:42,"Private Lives of Elizabeth and Essex, The",Drama|Romance
+832,4913013313404833,2020-04-13,11:47:04,"Danger! 50,000 Zombies",Comedy|Horror
+833,3585598626406797,2020-04-13,5:07:57,Dying at Grace,Documentary
+834,30380151808615,2020-04-13,5:15:03,Chuck Berry Hail! Hail! Rock 'n' Roll,Documentary|Musical
+835,3576480632638229,2020-04-13,14:20:49,"Gaucho, The",Adventure|Romance
+836,4017950670700029,2020-04-13,7:56:28,Naked Fear,Horror|Thriller
+837,630420441301601516,2020-04-13,16:58:33,Beautiful Girls,Comedy|Drama|Romance
+838,374283763371945,2020-04-13,10:51:15,Fire in the Sky,Drama|Mystery|Sci-Fi
+839,4469625146579586,2020-04-13,16:52:59,Edie & Pen,Comedy
+840,6304784026243366199,2020-04-13,16:13:33,Dead on Time,Comedy|Drama|Romance
+841,3540202677944236,2020-04-13,0:56:32,The Cabin in the Cotton,Drama
+842,5602216567774578,2020-04-13,4:32:01,Uwasa No Onna (The Woman in the Rumor) (Her Mother's Profession),Drama|Romance
+843,5108752357065149,2020-04-13,15:23:12,"Pied Piper, The (Pied Piper of Hamelin, The)",Children|Drama|Fantasy|Musical
+844,374283454855875,2020-04-13,15:40:19,W.W. and the Dixie Dancekings,Comedy
+845,3580399934795723,2020-04-13,17:49:24,Nathalie...,Drama
+846,3565531853259823,2020-04-13,5:14:15,"Verdict, The",Drama|Mystery
+847,4175003224627443,2020-04-13,23:29:55,True Lies,Action|Adventure|Comedy|Romance|Thriller
+848,5602215336641681991,2020-04-13,14:43:37,Blackadder Back & Forth,Comedy
+849,201891249452375,2020-04-13,6:33:45,Kahlekuningas,Comedy|Drama
+850,4175006300031612,2020-04-13,21:18:39,Guess Who,Comedy|Romance
+851,3566645070353406,2020-04-13,15:26:57,Altered,Horror|Sci-Fi|Thriller
+852,3563087045255817,2020-04-13,0:41:10,Born Yesterday,Comedy
+853,3540223861229762,2020-04-13,7:18:04,Algiers,Drama|Romance
+854,5100175114642380,2020-04-13,16:05:48,Trial,Drama
+855,5100170173228957,2020-04-13,23:36:31,California Suite,Comedy
+856,564182999861100327,2020-04-13,14:17:36,The Gentleman from Epsom,Comedy|Crime
+857,3571555109760906,2020-04-13,4:26:14,Riffraff,
+858,3578287926976035,2020-04-13,12:34:19,Purple Violets,Comedy|Drama|Romance
+859,4903967914005806,2020-04-13,2:11:50,"Real McCoy, The",Drama
+860,3557184463804982,2020-04-13,0:13:52,"Flying Fleet, The",Adventure|Drama|Romance
+861,3531365871159207,2020-04-13,17:32:42,"Warped Ones, The (Kyonetsu no kisetsu)",Drama
+862,5010128353322924,2020-04-13,22:58:26,10 000 timmar,Comedy
+863,3528853692639247,2020-04-13,13:03:14,"Canyons, The",Drama|Thriller
+864,56100708175949352,2020-04-13,16:08:40,Burlesque,Drama|Musical|Romance
+865,6706105727825300,2020-04-13,13:58:33,Ernest Goes to School,Children|Comedy|Drama
+866,633402407527936974,2020-04-13,0:04:12,Amazon Women on the Moon,Comedy|Sci-Fi
+867,5108753771931734,2020-04-13,13:53:48,"Return of a Man Called Horse, The",Western
+868,3573780412096982,2020-04-13,6:58:54,"Book of Life, The",Adventure|Animation|Romance
+869,3562662324903666,2020-04-13,6:56:09,Amsterdamned,
+870,5602258880795161,2020-04-13,3:12:18,Bullets or Ballots,Crime|Drama|Thriller
+871,3535190950716966,2020-04-13,2:53:03,"Killers, The",Crime|Film-Noir
+872,5602222480632331,2020-04-13,14:13:23,The Story of Alexander Graham Bell,Drama
+873,3555830480682106,2020-04-13,7:05:02,"Midsummer Night's Dream, A",Comedy|Fantasy|Romance
+874,201629365220774,2020-04-13,22:39:01,Sabrina,Comedy|Romance
+875,3589237309305838,2020-04-13,18:10:33,Sister Act 2: Back in the Habit,Comedy
+876,6333729896855763,2020-04-13,22:09:43,Mercy,Crime|Mystery|Thriller
+877,5020159116080513258,2020-04-13,6:06:48,"End, The",Comedy
+878,4017955109350,2020-04-13,7:27:19,7th Floor,Mystery|Thriller
+879,3584402211269457,2020-04-13,10:23:13,Above Suspicion,Thriller
+880,3537163168074187,2020-04-13,7:48:33,"Gestapo's Last Orgy, The (L'ultima orgia del III Reich)",Thriller|War
+881,342463967964062,2020-04-13,8:19:58,Pieces (Mil gritos tiene la noche) (One Thousand Cries Has the Night),Horror|Mystery|Thriller
+882,5481564638008096,2020-04-13,14:14:35,Maradona by Kusturica,Documentary
+883,3568605063929719,2020-04-13,22:58:43,Judge Dredd,Action|Crime|Sci-Fi
+884,3578248754614007,2020-04-13,7:17:36,Narrien illat ,Comedy|Drama|Musical
+885,3535194718377996,2020-04-13,16:41:12,Scream 3,Comedy|Horror|Mystery|Thriller
+886,3589218934217069,2020-04-13,12:01:10,Ocean's Eleven (a.k.a. Ocean's 11),Comedy|Crime
+887,374283941687568,2020-04-13,6:16:13,Hotel,Drama
+888,201995239344987,2020-04-13,3:03:35,Ranma ½: Nihao My Concubine (Ranma ½: Kessen Tôgenkyô! Hanayome o torimodose!!),Action|Adventure|Comedy|Fantasy|Romance
+889,5602249601057114,2020-04-13,21:19:02,Haunted Echoes,Thriller
+890,5599161206735371,2020-04-13,18:21:23,Tarzan's Magic Fountain,Action|Adventure|Fantasy|Romance
+891,3545769693804151,2020-04-13,1:54:36,Lucky Them,Drama
+892,3564098019247192,2020-04-13,1:18:30,"Whip and the Body, The (Frusta e il corpo, La)",Horror
+893,3533076215945056,2020-04-13,1:23:01,Nueba Yol,Comedy|Drama
+894,4936136027037715,2020-04-13,6:54:49,"Garbage Pail Kids Movie, The",Adventure|Children|Comedy
+895,3580384499346534,2020-04-13,6:17:40,Nazareno Cruz and the Wolf,(no genres listed)
+896,5602247740389901,2020-04-13,0:35:27,Tales of Ordinary Madness (Storie di Ordinaria Follia),Drama
+897,5610215885588993218,2020-04-13,12:19:07,Better Living Through Chemistry,Comedy|Drama
+898,30211367616692,2020-04-13,5:49:36,"Beast with a Million Eyes, The",Sci-Fi
+899,5106118568442273,2020-04-13,5:02:34,21 Hours at Munich,Drama
+900,67615717299469184,2020-04-13,18:10:41,Father Takes a Wife,Comedy|Romance
+901,3539585462588173,2020-04-13,13:56:10,The Little Rascals Save the Day,Comedy
+902,3586917929119981,2020-04-13,9:48:00,Project X,Comedy
+903,633362177387310861,2020-04-13,9:44:34,Damsels in Distress,Comedy|Romance
+904,4903915641907177279,2020-04-13,0:36:00,Cameron's Closet,Horror
+905,3535922302264802,2020-04-13,3:19:34,From Paris with Love,Action|Crime
+906,3581138453643255,2020-04-13,0:30:19,From the Earth to the Moon,Action|Documentary|Drama|Thriller
+907,5610315907765567,2020-04-13,6:06:57,"Show, The",Documentary
+908,4844628552210783,2020-04-13,12:27:47,"Long Good Friday, The",Drama|Thriller
+909,3550271549825805,2020-04-13,19:19:58,Azumi 2: Death or Love,Action|Adventure
+910,5100177984813067,2020-04-13,4:00:30,Three Times (Zui hao de shi guang),Drama|Romance
+911,3565543604577601,2020-04-13,9:44:36,Highway 61,Comedy
+912,3577321657224504,2020-04-13,5:55:33,Innocent Voices (Voces inocentes),Drama|War
+913,3589926754876828,2020-04-13,18:04:59,Violet Tendencies,
+914,3547820266876312,2020-04-13,23:35:09,California Conquest,Adventure|Romance|Western
+915,0604300909799965585,2020-04-13,1:34:48,Girls Gone Dead,Comedy|Horror
+916,4913494170903978,2020-04-13,6:05:40,"Odds, The",Crime|Mystery
+917,3565416089929136,2020-04-13,15:30:39,Dangerous Davies: The Last Detective,Comedy|Crime
+918,5602248351191495,2020-04-13,9:32:31,Vessel of Wrath,Drama
+919,3533336739199865,2020-04-13,21:53:38,Walk the Line,Drama|Musical|Romance
+920,3546970400276548,2020-04-13,7:31:54,Top Gun,Action|Romance
+921,374288007955759,2020-04-13,22:03:47,Nil By Mouth,Drama
+922,3575523034218255,2020-04-13,22:08:18,"Sing a Song of Sex (Treatise on Japanese Bawdy Songs, A) (Nihon shunka-kô)",Thriller
+923,6333060917564592,2020-04-13,2:56:11,"She Does Not Drink, Smoke or Flirt But... She Talks",Comedy
+924,3576911573581523,2020-04-13,5:11:27,Winged Creatures (Fragments),Crime|Drama
+925,5641820405228869256,2020-04-13,23:33:55,Dear God,Comedy
+926,3538718833815832,2020-04-13,13:39:53,Enron: The Smartest Guys in the Room,Documentary
+927,36060112689239,2020-04-13,16:26:45,Stage Struck,Comedy|Musical
+928,6334787269089914656,2020-04-13,14:17:34,Man Push Cart,Drama
+929,5602252826825554,2020-04-13,3:04:03,Hoosiers (a.k.a. Best Shot),Drama|Romance
+930,201853591665202,2020-04-13,2:09:56,"Wedding Night, The",Drama|Romance
+931,5100138687132643,2020-04-13,20:47:24,Goyokin,Action|Drama
+932,5602256346078909,2020-04-13,2:46:10,Exit Through the Gift Shop,Comedy|Documentary
+933,3585268613468958,2020-04-13,9:17:03,"Kingdom, The",Action|Drama|Thriller
+934,3578173286741179,2020-04-13,11:11:46,I.Q.,Comedy|Romance
+935,4017959772500,2020-04-13,19:39:22,Android,Sci-Fi
+936,5542365987176220,2020-04-13,0:28:43,"Day of the Triffids, The",Horror|Sci-Fi
+937,3556988588061497,2020-04-13,23:07:12,"Stolen Collection, (Skradziona kolekcja)",Comedy
+938,56022263366136570,2020-04-13,19:47:45,Pigs and Battleships (Hogs and Warships) (The Flesh Is Hot) (Buta to gunkan),Comedy|Crime|Drama
+939,4041599577046,2020-04-13,19:34:04,Zaat,
+940,5602248841394394,2020-04-13,20:56:04,Hue and Cry,Action|Comedy|Crime
+941,560222213918399993,2020-04-13,3:34:46,I Smile Back,Drama
+942,5048378377270155,2020-04-13,3:49:34,Bhaji on the Beach,Comedy|Drama
+943,3546214374814327,2020-04-13,5:00:44,Edge of Tomorrow,
+944,4508324202378777,2020-04-13,5:23:30,Shooting Dogs (a.k.a. Beyond the Gates),Documentary|Drama|War
+945,3585129026111363,2020-04-13,2:37:21,Down to You,Comedy|Romance
+946,3535345978277850,2020-04-13,18:40:11,"Great Stone Face, The",Documentary
+947,30284085353781,2020-04-13,1:13:58,Stigmata,Drama|Thriller
+948,5048378211471886,2020-04-13,10:48:35,National Lampoon's Van Wilder,Comedy
+949,3528977912700255,2020-04-13,12:42:37,Fort McCoy,(no genres listed)
+950,3540855244451066,2020-04-13,2:36:53,"Pink Panther Strikes Again, The",Comedy|Crime
+951,3582208207367458,2020-04-13,8:06:50,Transcendent Man,Documentary
+952,3586274473397377,2020-04-13,6:26:14,"Big Country, The",Romance|Western
+953,3587121296781189,2020-04-13,14:42:21,"Pest, The",Comedy
+954,4913809062731411,2020-04-13,9:09:03,French Fried Vacation 2 (Les bronzés font du ski),Comedy
+955,3579533447138897,2020-04-13,0:17:43,"Shawshank Redemption, The",Crime|Drama
+956,3563522311842971,2020-04-13,16:06:46,"First Wives Club, The",Comedy
+957,3562544113073853,2020-04-13,14:44:57,North Country,
+958,63043782707834297,2020-04-13,0:46:29,It's All Gone Pete Tong,Comedy|Drama|Musical
+959,3567689002214830,2020-04-13,5:31:14,"Frankenstein Syndrome, The",Horror|Sci-Fi
+960,5100137074922335,2020-04-13,2:38:02,Rugrats in Paris: The Movie,Animation|Children|Comedy
+961,3538958947487801,2020-04-13,2:40:34,Beauty and the Beast: The Enchanted Christmas,Animation|Children|Fantasy|Musical
+962,4936914026750829112,2020-04-13,17:01:24,"Handmaid's Tale, The",Drama|Sci-Fi
+963,3585507086097640,2020-04-13,5:45:43,Now Where Did the Seventh Company Get to? (Mais où est donc passée la 7ème compagnie),Action|Comedy|War
+964,3546160045332068,2020-04-13,3:52:36,"Devil's Nightmare, The (Plus longue nuit du diable, La)",Fantasy|Horror
+965,5610039238286511,2020-04-13,12:12:09,Divided We Fall (Musíme si pomáhat),
+966,3562871843378421,2020-04-13,4:55:18,Transylvania 6-5000,Comedy|Horror
+967,373657185570005,2020-04-13,17:12:53,AKA,Drama
+968,4508884158927885,2020-04-13,17:54:30,Involuntary (De ofrivilliga),Drama
+969,490306935709807110,2020-04-13,22:40:39,Get Bruce,Documentary
+970,490599021095618456,2020-04-13,0:54:03,"Flaw, The",Documentary
+971,50203620102965576,2020-04-13,22:37:21,Lust for Life,Drama
+972,3567461664763045,2020-04-13,17:41:01,Evidence ,Horror|Thriller
+973,633344756380492595,2020-04-13,22:29:10,"Devil and Daniel Webster, The (All That Money Can Buy)",
+974,3583259201738185,2020-04-13,23:10:45,The World Forgotten,Adventure|Documentary
+975,491191802145173703,2020-04-13,17:15:04,Dad,Drama
+976,4041376939633,2020-04-13,14:34:44,Madame Bovary,Drama|Romance
+977,4017951634674,2020-04-13,23:37:43,Iron Man: Rise Of Technovore,Animation
+978,5602241732168373,2020-04-13,21:05:25,Kind Lady,Drama|Thriller
+979,345530386864953,2020-04-13,9:09:09,Affluenza,Drama
+980,5443314735463944,2020-04-13,0:08:48,When the Game Stands Tall,Drama
+981,4041599673470864,2020-04-13,15:37:08,"Killing Fields, The",Drama|War
+982,30427418856240,2020-04-13,6:38:23,Looking for Eric,Comedy|Drama|Fantasy
+983,3578744201666277,2020-04-13,18:13:44,Arabesque,Adventure|Drama|Romance|Thriller
+984,3584604487947886,2020-04-13,21:14:35,Best Worst Movie,Documentary
+985,5100133858255653,2020-04-13,17:11:11,Valhalla,Adventure|Animation|Children|Fantasy
+986,3528751072790194,2020-04-13,15:19:45,Transporter 2,Action|Crime|Thriller
+987,3534373282497387,2020-04-13,21:46:23,Man of a Thousand Faces,Drama
+988,3549514460440805,2020-04-13,9:36:29,Snake-Crane Secret (She hao dan xin zhen jiu zhou),Action|Drama
+989,3541301567518024,2020-04-13,0:05:07,Niagara Motel,Comedy
+990,4405690140443897,2020-04-13,2:27:02,Alice in Wonderland,Adventure|Comedy|Fantasy
+991,56022169428910656,2020-04-13,8:29:02,Casanova's Big Night,Adventure|Comedy
+992,3546376800567918,2020-04-13,18:20:44,Pollyanna,Children|Comedy|Drama
+993,201604919895348,2020-04-13,14:43:32,"Mark of Zorro, The",Adventure
+994,4852393474059532,2020-04-13,6:52:16,"Decoy Bride, The",Comedy|Romance
+995,201818599173558,2020-04-13,12:31:47,Culloden (The Battle of Culloden),Documentary|Drama|War
+996,3573889517625478,2020-04-13,18:00:35,Fantastic Voyage,Adventure|Sci-Fi
+997,50386047405019357,2020-04-13,3:12:37,"Trou, Le (Hole, The) (Night Watch, The)",Crime|Film-Noir
+998,677148715032057060,2020-04-13,11:33:17,Pontypool,Horror|Thriller
+999,6372951818017452,2020-04-13,20:55:06,Mortal Kombat,Action|Adventure|Fantasy
+1000,374622332886760,2020-04-13,16:06:56,Outrageous Fortune,Comedy|Mystery
