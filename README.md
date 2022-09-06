@@ -1,6 +1,6 @@
 ## data-mask-framework
 
-This project has to main components.
+This project has two main components.
 
 A python util to deal with datamasking process:
 
