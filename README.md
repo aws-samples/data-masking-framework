@@ -8,7 +8,7 @@ See [datamask-pyutil](./python/datamask-pyutil/README.md) for more information.
 
 And a emr-launch stack to make it automatic:
 
-See [datamask-emr-launch](./datamask-emr-launch/README.md) for more information.
+See [datamask-emr-launch](./stacks/datamask-emr-launch/README.md) for more information.
 
 ## Security
 
