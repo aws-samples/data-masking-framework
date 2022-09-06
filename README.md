@@ -1,11 +1,14 @@
-## My Project
+## data-mask-framework
 
-TODO: Fill this README out!
+This project has to main components.
 
-Be sure to:
+A python util to deal with datamasking process:
 
-* Change the title in this README
-* Edit your repository description on GitHub
+See [datamask-pyutil](./python/datamask-pyutil/README.md) for more information.
+
+And a emr-launch stack to make it automatic:
+
+See [datamask-emr-launch](./datamask-emr-launch/README.md) for more information.
 
 ## Security
 
