@@ -65,5 +65,5 @@ Test case:
 
 All the parameters are stored in a JSON file with the following schema:
 
-See [datamask.schema.md](./datamask-pyutil/schemas/datamask.schema.md)
+See [Parameters schema](./schemas/datamask.md)
 
