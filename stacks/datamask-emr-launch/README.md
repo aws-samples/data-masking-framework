@@ -2,68 +2,37 @@
 
 *Deploy datamask-pyutil using EMR launch*
 
-## Table of contents
+This project is a CDK stack to orchestrate the data-masking-framework. 
 
-- [Quick Start](#quick-start) 
+![](datamask-emr-stack.png)
 
-## Quick Start
-### Pyspark + EMR/GLUE
+- [AWS Step functions](https://aws.amazon.com/step-functions): orchestrate the data pipeline
+- [AWS Lambdas](https://aws.amazon.com/lambda): parse and process the S3 events
+- [Amazon SQS](https://aws.amazon.com/sqs/): get the income events from  S3. 
+- [Amazon SNS](https://aws.amazon.com/sns/): notify error or success 
+- [Amazon EMR](https://aws.amazon.com/emr/): process the masking with Apache Spark
+- [Amazon Dynamodb](https://aws.amazon.com/dynamodb/): store the history of processing.  
+- [Amazon S3](https://aws.amazon.com/s3/):  store the income files, output files and parameters.
 
 Deploy datamask-pyutil to run with pyspark in a S3 bucket.
+
+- PREFIX: prefix name all the resources created.
+- ENV: Define the environment, dev, prod or uat.
+- ARTF_PARAM_FILE: The filename to the json parameter file.
+- VPC: VPC id to create the EMR cluster
+- SUBNET: Subnet id to create the EMR cluster
+- AZ: Sybnet AZ id
+
+The deploy.sh script get the version from the [emr-launch](https://github.com/awslabs/aws-emr-launch), python package that helps create the EMR cluster, and deploy the CDK dtamask-launch.
 ```
 $ git clone [REPOSITORY PATH]
-$ cd datamask-pyutil
-$ bash scripts/deploy.sh [BUCKET TO DEPLOY] 
+$ cd stacks/datamask-emr-launch
+$ export PREFIX="org-prefix"
+$ export ENV="dev"
+$ export ARTF_PARAM_FILE="parm.json"
+$ export VPC="vpc_id"
+$ export SUBNET="subnet_id"
+$ export AZ="az_id"
+$ bash scripts/deploy.sh 
 
 ```
-   The folder ./artfact will be created on the build process and it will be uploaded on [BUCKET TO DEPLOY]
-   Than use the artifacts to run a EMR step or a GLUE job.
-   The script entry point will be on "s3::/[BUCKET]/datamask/datamask-pyutil.sh"
-
-
-### Custom Pyspark   
-
-Create you own pyspark module with the conf_process class.
-
-First import and build artifacts files to be included in the spark-submit execution: 
-```
-$ git clone [REPOSITORY PATH]
-$ cd datamask-pyutil
-$ bash scripts/build.sh [BUCKET TO DEPLOY] 
-```
-Create your own pyspark script following the example above:
-
-```
-from datamask_pyutil import conf_process
-
-''' 
-Initialize the Spark context 
-'''
-jobname='JobName'
-part_vet=['ano=2020','month=12']
-
-cf = conf_process.DatamaskConfProcess(configPath, jobName)
-
-if not cf.is_job_active():
-    print("Jobname[{}] is not active".format(jobName))
-else:
-  cf.process_spark(part_vet, spark)
-
-```
-Than call spark-submit with all files in "./artifacts/spark-dist/*" in the "--py-files"
-
-### Local test
-
-You can use "artifact/datamask-pyutil.sh" to run a local environment of pyspark also.
-Use scripts/run-test.sh as a example. 
-Test case:
-- ./test/test_data/input: test input data
-- ./test/test_data/salts: test salts
-- ./test/test_parms/test_parms.json: test parameters
-
-### Parameters
-
-All the parameters are stored in a JSON file with the following schema:
-
-See [datamask.schema.md](./datamask-pyutil/schemas/datamask.schema.md)
-
