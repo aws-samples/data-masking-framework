@@ -2,13 +2,13 @@
 
 import os
 import aws_cdk as cdk
-from lib.datamask_launch_stack import DatamaskLaunchStack
+from lib.emr_profile_stack import EmrProfileStack
 
 app = cdk.App()
 
-DatamaskLaunchStack(
+EmrProfileStack(
     app,
-    "DmfDemoDatamaskLaunch",
+    "DmfDemoEmrProfile",
     env=cdk.Environment(account=os.getenv("AWS_ACCOUNT"), region=os.getenv("AWS_REGION"))
     )
 

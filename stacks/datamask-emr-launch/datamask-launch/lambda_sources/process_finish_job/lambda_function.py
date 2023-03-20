@@ -36,11 +36,12 @@ def lambda_handler(event, context):
     }
 
     ret = {"Payload": payload, "Description": description}
-
+    print(ret)
+    print(event['Status'])
     if event['Status'] == 'SUCCESS': 
         return ret
     else:
-        raise ret
+        raise ValueError(ret)
 
 
 

@@ -44,7 +44,8 @@ def load_config(config_path):
 def lambda_handler(event, context):
     
     config_dict = load_config(config_path)
-        
+    print("config_dict")
+    print(config_dict)    
     if not config_dict:
         print("Can not read config file")
         return None
@@ -55,6 +56,8 @@ def lambda_handler(event, context):
 
     input_path = {}    
     for job in config_dict['Jobs']:
+        print("job")
+        print(job)
         if 'Input' not in job or 'InputPath' not in job['Input']:
             print("Can not find InputPath key in the config file for Job {}".format(job))
         else:
@@ -77,22 +80,36 @@ def lambda_handler(event, context):
             for rec in m_json:
                 if "Records" in rec:
                     for rec2 in m_json["Records"]:
+                        print("rec2")
+                        print(rec2)
                         if rec2["s3"]["object"]["size"] > 0 \
                         and not re.search(file_exclude_re, rec2["s3"]["object"]["key"]) \
                         and re.search(file_include_re, rec2["s3"]["object"]["key"]):
                             bucket_name = rec2["s3"]["bucket"]["name"]
                             key=rec2["s3"]["object"]["key"].replace('%3D','=')
+                            print("key")
+                            print(key)
                             table_prefix_match = re.search(table_prefix_re,key)
+
+                            print("table_prefix_match")
+                            print(table_prefix_match)
                             table_prefix = table_prefix_match.group()
+
+                            print("table_prefix")
+                            print(table_prefix)
                             partition = ''
+
                             for p in key[table_prefix_match.end():].split("/")[:-1]:
                                 if partition == '':
                                     partition = p
                                 else:
                                     partition = '{}/{}'.format(partition,p)
-                            table_path = "s3://{}/{}".format(bucket_name,table_prefix)
 
+                            table_path = "s3://{}/{}".format(bucket_name,table_prefix)
+                            print("table_path:{} + input_path: {}".format(table_path,input_path))
                             if table_path in input_path:
+                                print("map_table")
+                                print(map_table)
                                 if table_prefix not in map_table:
                                     map_table[table_prefix]={}
                                     events[table_prefix]={}
@@ -118,6 +135,8 @@ def lambda_handler(event, context):
                                                     partition
                                                     )
                             else:
+                                print("map_table")
+                                print(map_table)
                                 print('Table path {} is not in config'.format(table_path))
 
         resp = sqs_client.receive_message(
@@ -155,8 +174,3 @@ def lambda_handler(event, context):
     )
     
     return map_table
-
-
-
-
-

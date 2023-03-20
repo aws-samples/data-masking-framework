@@ -40,5 +40,5 @@ def lambda_handler(event, context):
     if len(messages) == 0:
         return { "Payload": messages, "Description": "No messages"}
     else:
-        return { "Payload": messages, "Description": "Trere are {} messages".format(cc)}
+        return { "Payload": messages, "Description": "There are {} messages".format(cc)}
 
