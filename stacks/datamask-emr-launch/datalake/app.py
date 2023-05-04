@@ -2,13 +2,12 @@
 
 import os
 import aws_cdk as cdk
-from lib.datamask_launch_stack import DatamaskLaunchStack
+from lib.datalake_stack import DataLakeStack
 
 app = cdk.App()
-
-DatamaskLaunchStack(
+DataLakeStack(
     app,
-    "DmfDemoDatamaskLaunch",
+    "DmfDemoDatalake",
     env=cdk.Environment(account=os.getenv("AWS_ACCOUNT"), region=os.getenv("AWS_REGION"))
     )
 

@@ -1,0 +1,1000 @@
+{
+	"Jobs":
+	[
+		{
+			"Active": true,
+			"JobName": "TestRent",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/rent",
+				"Delete": false,
+				"ReadFormat": "csv",
+				"ReadOptions": 
+				[ 
+					{ "OptionName": "header", "OptionValue": "true" }
+				],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id_sha512/sha256",
+					"KeepMaskName": false
+				},
+				{
+					"Active": true,
+					"MaskFieldName": "credit_card_hash",
+					"FieldName": "credit_card" ,
+					"FormatRE": ".*",
+					"DomainName": "credit_card_sha512/sha256",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/rent",
+				"OutputTable": "rent",
+				"OutputDatabase": "dmf_sample_db",
+				"Coalesce": 5
+			}
+		},
+		{
+			"Active": true,
+			"JobName": "TestRent_sha256",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/rent3",
+				"Delete": false,
+				"ReadFormat": "csv",
+				"ReadOptions": 
+				[ 
+					{ "OptionName": "header", "OptionValue": "true" }
+				],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id_sha256",
+					"KeepMaskName": false
+				},
+				{
+					"Active": true,
+					"MaskFieldName": "credit_card_hash",
+					"FieldName": "credit_card" ,
+					"FormatRE": ".*",
+					"DomainName": "credit_card_sha256",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/rent_sha256",
+				"OutputTable": "rent_sha256",
+				"OutputDatabase": "dmf_sample_db",
+				"Coalesce": 5
+			}
+		},
+		{
+			"Active": true,
+			"JobName": "TestRent_sha512",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/rent",
+				"Delete": false,
+				"ReadFormat": "csv",
+				"ReadOptions": 
+				[ 
+					{ "OptionName": "header", "OptionValue": "true" }
+				],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id_sha512",
+					"KeepMaskName": false
+				},
+				{
+					"Active": true,
+					"MaskFieldName": "credit_card_hash",
+					"FieldName": "credit_card" ,
+					"FormatRE": ".*",
+					"DomainName": "credit_card_sha512",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/rent_sha512",
+				"OutputTable": "rent_sha512",
+				"OutputDatabase": "dmf_sample_db",
+				"Coalesce": 5
+			}
+		},
+		{
+			"Active": true,
+			"JobName": "TestRent_sha512sha256",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/rent",
+				"Delete": false,
+				"ReadFormat": "csv",
+				"ReadOptions": 
+				[ 
+					{ "OptionName": "header", "OptionValue": "true" }
+				],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id_sha512/sha256",
+					"KeepMaskName": false
+				},
+				{
+					"Active": true,
+					"MaskFieldName": "credit_card_hash",
+					"FieldName": "credit_card" ,
+					"FormatRE": ".*",
+					"DomainName": "credit_card_sha512/sha256",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/rent_sha512sha256",
+				"OutputTable": "rent_sha512sha256",
+				"OutputDatabase": "dmf_sample_db",
+				"Coalesce": 5
+			}
+		},
+		{
+			"Active": true,
+			"JobName": "TestRent_aes_ctr",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/rent",
+				"Delete": false,
+				"ReadFormat": "csv",
+				"ReadOptions": 
+				[ 
+					{ "OptionName": "header", "OptionValue": "true" }
+				],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id_aes_ctr",
+					"KeepMaskName": false
+				},
+				{
+					"Active": true,
+					"MaskFieldName": "credit_card_hash",
+					"FieldName": "credit_card" ,
+					"FormatRE": ".*",
+					"DomainName": "credit_card_aes_ctr",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/rent_aes_ctr",
+				"OutputTable": "rent_aes_ctr",
+				"OutputDatabase": "dmf_sample_db",
+				"Coalesce": 5
+			}
+		},
+		{
+			"Active": true,
+			"JobName": "TestRent_aes_ctru",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/rent",
+				"Delete": false,
+				"ReadFormat": "csv",
+				"ReadOptions": 
+				[ 
+					{ "OptionName": "header", "OptionValue": "true" }
+				],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id_aes_ctru",
+					"KeepMaskName": false
+				},
+				{
+					"Active": true,
+					"MaskFieldName": "credit_card_hash",
+					"FieldName": "credit_card" ,
+					"FormatRE": ".*",
+					"DomainName": "credit_card_aes_ctru",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/rent_aes_ctru",
+				"OutputTable": "rent_aes_ctru",
+				"OutputDatabase": "dmf_sample_db",
+				"Coalesce": 5
+			}
+		},
+		{
+			"Active": true,
+			"JobName": "TestRent_aes_cbc",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/rent",
+				"Delete": false,
+				"ReadFormat": "csv",
+				"ReadOptions": 
+				[ 
+					{ "OptionName": "header", "OptionValue": "true" }
+				],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id_aes_cbc",
+					"KeepMaskName": false
+				},
+				{
+					"Active": true,
+					"MaskFieldName": "credit_card_hash",
+					"FieldName": "credit_card" ,
+					"FormatRE": ".*",
+					"DomainName": "credit_card_aes_cbc",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/rent_aes_cbc",
+				"OutputTable": "rent_aes_cbc",
+				"OutputDatabase": "dmf_sample_db",
+				"Coalesce": 5
+			}
+		},
+		{
+			"Active": true,
+			"JobName": "TestRent_aes_cfb",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/rent",
+				"Delete": false,
+				"ReadFormat": "csv",
+				"ReadOptions": 
+				[ 
+					{ "OptionName": "header", "OptionValue": "true" }
+				],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id_aes_cfb",
+					"KeepMaskName": false
+				},
+				{
+					"Active": true,
+					"MaskFieldName": "credit_card_hash",
+					"FieldName": "credit_card" ,
+					"FormatRE": ".*",
+					"DomainName": "credit_card_aes_cfb",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/rent_aes_cfb",
+				"OutputTable": "rent_aes_cfb",
+				"OutputDatabase": "dmf_sample_db",
+				"Coalesce": 5
+			}
+		},
+		{
+			"Active": true,
+			"JobName": "TestRent_aes_ecb",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/rent",
+				"Delete": false,
+				"ReadFormat": "csv",
+				"ReadOptions": 
+				[ 
+					{ "OptionName": "header", "OptionValue": "true" }
+				],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id_aes_ecb",
+					"KeepMaskName": false
+				},
+				{
+					"Active": true,
+					"MaskFieldName": "credit_card_hash",
+					"FieldName": "credit_card" ,
+					"FormatRE": ".*",
+					"DomainName": "credit_card_aes_ecb",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/rent_aes_ecb",
+				"OutputTable": "rent_aes_ecb",
+				"OutputDatabase": "dmf_sample_db",
+				"Coalesce": 5
+			}
+		},
+		{
+			"Active": true,
+			"JobName": "TestRent_aes_ofb",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/rent",
+				"Delete": false,
+				"ReadFormat": "csv",
+				"ReadOptions": 
+				[ 
+					{ "OptionName": "header", "OptionValue": "true" }
+				],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id_aes_ofb",
+					"KeepMaskName": false
+				},
+				{
+					"Active": true,
+					"MaskFieldName": "credit_card_hash",
+					"FieldName": "credit_card" ,
+					"FormatRE": ".*",
+					"DomainName": "credit_card_aes_ofb",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/rent_aes_ofb",
+				"OutputTable": "rent_aes_ofb",
+				"OutputDatabase": "dmf_sample_db",
+				"Coalesce": 5
+			}
+		},
+		{
+			"Active": true,
+			"JobName": "TestRent_fte_enc",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/rent",
+				"Delete": false,
+				"ReadFormat": "csv",
+				"ReadOptions": 
+				[ 
+					{ "OptionName": "header", "OptionValue": "true" }
+				],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id_fte_enc",
+					"KeepMaskName": false
+				},
+				{
+					"Active": true,
+					"MaskFieldName": "credit_card_hash",
+					"FieldName": "credit_card" ,
+					"FormatRE": ".*",
+					"DomainName": "credit_card_fte_enc",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/rent_fte_enc",
+				"OutputTable": "rent_fte_enc",
+				"OutputDatabase": "dmf_sample_db",
+				"Coalesce": 5
+			}
+		},
+		{
+			"Active": true,
+			"JobName": "TestRentMultiPart2",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/rent3",
+				"Delete": false,
+				"ReadFormat": "csv",
+				"PartitionColumnTypeInference": false,
+				"ReadOptions": 
+				[ 
+					{ "OptionName": "header", "OptionValue": "true" }
+				],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id",
+					"KeepMaskName": false
+				},
+				{
+					"Active": true,
+					"MaskFieldName": "credit_card_hash",
+					"FieldName": "credit_card" ,
+					"FormatRE": ".*",
+					"DomainName": "credit_card",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/rent3",
+				"Coalesce": 5
+			}
+		},
+		{
+			"Active": true,
+			"JobName": "TestRentMultiPartRent2",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/rent2",
+				"Delete": false,
+				"ReadFormat": "csv",
+				"ReadOptions": 
+				[ 
+					{ "OptionName": "header", "OptionValue": "true" }
+				],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id",
+					"KeepMaskName": false
+				},
+				{
+					"Active": true,
+					"MaskFieldName": "credit_card_hash",
+					"FieldName": "credit_card" ,
+					"FormatRE": ".*",
+					"DomainName": "credit_card",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/rent2",
+				"Coalesce": 5
+			}
+		},
+		{
+			"Active": true,
+			"JobName": "TestRentNoSpecPartition",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/rent_wp",
+				"Delete": true,
+				"ReadFormat": "csv",
+				"ReadOptions": 
+				[ 
+					{ "OptionName": "header", "OptionValue": "true" }
+				],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id",
+					"KeepMaskName": false
+				},
+				{
+					"Active": true,
+					"MaskFieldName": "credit_card_hash",
+					"FieldName": "credit_card" ,
+					"FormatRE": ".*",
+					"DomainName": "credit_card",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/rent_wp",
+				"OutputTable": "rent",
+				"OutputDatabase": "dmf_sample_db",
+				"Coalesce": 5
+			}
+		},
+		{
+			"Active": true,
+			"JobName": "TestRentNoPartition",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/rent_np",
+				"Delete": false,
+				"ReadFormat": "csv",
+				"ReadOptions": 
+				[ 
+					{ "OptionName": "header", "OptionValue": "true" }
+				],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id",
+					"KeepMaskName": false
+				},
+				{
+					"Active": true,
+					"MaskFieldName": "credit_card_hash",
+					"FieldName": "credit_card" ,
+					"FormatRE": ".*",
+					"DomainName": "credit_card",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/rent_np",
+				"OutputTable": "rent",
+				"OutputDatabase": "dmf_sample_db",
+				"Coalesce": 5
+			}
+		},
+		{
+			"Active": true,
+			"JobName": "TestUser",
+			"Input": {
+				"InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/user",
+				"ReadFormat": "csv",
+				"ReadOptions": [ 
+					{ "OptionName":"header", "OptionValue":"true" }
+				],
+				"IntPartitions": [ "offset" ],
+				"RepartitionValue": 5
+			},
+			"MaskFields": [
+				{
+					"Active": true,
+					"MaskFieldName": "id_hash",
+					"FieldName": "id" ,
+					"FormatRE": ".*",
+					"DomainName": "user_id",
+					"KeepMaskName": false
+				}
+			],
+			"Output": {
+				"OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/user",
+				"OutputTable": "user",
+				"OutputDatabase": "dmf_sample_db",
+				"Coalesce": 5
+			}
+		},
+		{
+		    "Active": true,
+		    "JobName": "TestGeo",
+		    "Input": {
+		            "InputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-landing-bucket/input/geo",
+		            "ReadFormat": "csv",
+		            "ReadOptions": [ 
+		                    { "OptionName":"header", "OptionValue":"true" }
+		            ],
+		            "IntPartitions": [ "offset" ],
+		            "RepartitionValue": 5
+		    },
+		    "MaskFields": [
+		            {       
+		                    "Active": true,
+		                    "MaskFieldName": "id_hash_2",
+		                    "FieldName": "id2" ,
+		                    "FormatRE": ".*",
+		                    "DomainName": "user_id",
+		                    "KeepMaskName": false
+		            }
+		    ],
+		    "Output": {
+		            "OutputPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-dataout-bucket/output/geo",
+		            "OutputTable": "user",
+		            "OutputDatabase": "dmf_sample_db",
+		            "Coalesce": 5
+		    }
+		}
+	],
+	"Domains": 
+	[
+		{
+			"DomainName": "user_id",
+			"SaltName": "Salt1",
+			"Layout": "$SALT$VALUE",
+			"MaskType": "fte_enc",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "user_id",
+			"MaskFieldAlias":"user_id_mask",
+			"ReverseDataset": {
+				"Active": true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/user_id",
+				"Coalesce": 1,
+				"BackupCoalesce": 1,
+				"KeepOnlyBackup": true,
+				"BackupDatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse_backup/user_id",
+				"JobNamePartition": true,
+				"JobNamePartitionFieldName": "MaskTableReference"
+			}
+		},
+		{
+			"DomainName": "credit_card",
+			"SaltName": "Salt2",
+			"Layout": "$VALUE$SALT",
+			"MaskType": "fte_enc",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "credit_card",
+			"MaskFieldAlias":"credit_card_mask",
+			"ReverseDataset": {
+				"Active":true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/credit_card",
+				"Coalesce": 5
+			}
+		},
+		{
+			"DomainName": "user_id_aes_ctr",
+			"SaltName": "Salt1",
+			"Layout": "$SALT$VALUE",
+			"MaskType": "aes_ctr",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "user_id",
+			"MaskFieldAlias":"user_id_mask",
+			"ReverseDataset": {
+				"Active": true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/user_id_aes_ctr",
+				"Coalesce": 1,
+				"BackupCoalesce": 1,
+				"KeepOnlyBackup": true,
+				"BackupDatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse_backup/user_id_aes_ctr",
+				"JobNamePartition": true,
+				"JobNamePartitionFieldName": "MaskTableReference"
+			}
+		},
+		{
+			"DomainName": "credit_card_aes_ctr",
+			"SaltName": "Salt2",
+			"Layout": "$VALUE$SALT",
+			"MaskType": "aes_ctr",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "credit_card",
+			"MaskFieldAlias":"credit_card_mask",
+			"ReverseDataset": {
+				"Active":true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/credit_card_aes_ctr",
+				"Coalesce": 5
+			}
+		},
+        {
+			"DomainName": "user_id_sha256",
+			"SaltName": "Salt1",
+			"Layout": "$SALT$VALUE",
+			"MaskType": "sha256",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "user_id",
+			"MaskFieldAlias":"user_id_mask",
+			"ReverseDataset": {
+				"Active": true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/user_id_sha256",
+				"Coalesce": 1,
+				"BackupCoalesce": 1,
+				"KeepOnlyBackup": true,
+				"BackupDatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse_backup/user_id_sha256",
+				"JobNamePartition": true,
+				"JobNamePartitionFieldName": "MaskTableReference"
+			}
+		},
+		{
+			"DomainName": "credit_card_sha256",
+			"SaltName": "Salt2",
+			"Layout": "$VALUE$SALT",
+			"MaskType": "sha256",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "credit_card",
+			"MaskFieldAlias":"credit_card_mask",
+			"ReverseDataset": {
+				"Active":true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/credit_card_sha256",
+				"Coalesce": 5
+			}
+		},
+        {
+			"DomainName": "user_id_aes_ctru",
+			"SaltName": "Salt1",
+			"Layout": "$SALT$VALUE",
+			"MaskType": "aes_ctru",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "user_id",
+			"MaskFieldAlias":"user_id_mask",
+			"ReverseDataset": {
+				"Active": true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/user_id_aes_ctru",
+				"Coalesce": 1,
+				"BackupCoalesce": 1,
+				"KeepOnlyBackup": true,
+				"BackupDatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse_backup/user_id_aes_ctru",
+				"JobNamePartition": true,
+				"JobNamePartitionFieldName": "MaskTableReference"
+			}
+		},
+		{
+			"DomainName": "credit_card_aes_ctru",
+			"SaltName": "Salt2",
+			"Layout": "$VALUE$SALT",
+			"MaskType": "aes_ctru",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "credit_card",
+			"MaskFieldAlias":"credit_card_mask",
+			"ReverseDataset": {
+				"Active":true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/credit_card_aes_ctru",
+				"Coalesce": 5
+			}
+		},
+        {
+			"DomainName": "user_id_aes_cbc",
+			"SaltName": "Salt1",
+			"Layout": "$SALT$VALUE",
+			"MaskType": "aes_cbc",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "user_id",
+			"MaskFieldAlias":"user_id_mask",
+			"ReverseDataset": {
+				"Active": true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/user_id_aes_cbc",
+				"Coalesce": 1,
+				"BackupCoalesce": 1,
+				"KeepOnlyBackup": true,
+				"BackupDatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse_backup/user_id_aes_cbc",
+				"JobNamePartition": true,
+				"JobNamePartitionFieldName": "MaskTableReference"
+			}
+		},
+		{
+			"DomainName": "credit_card_aes_cbc",
+			"SaltName": "Salt2",
+			"Layout": "$VALUE$SALT",
+			"MaskType": "aes_cbc",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "credit_card",
+			"MaskFieldAlias":"credit_card_mask",
+			"ReverseDataset": {
+				"Active":true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/credit_card_aes_cbc",
+				"Coalesce": 5
+			}
+		},
+        {
+			"DomainName": "user_id_aes_cfb",
+			"SaltName": "Salt1",
+			"Layout": "$SALT$VALUE",
+			"MaskType": "aes_cfb",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "user_id",
+			"MaskFieldAlias":"user_id_mask",
+			"ReverseDataset": {
+				"Active": true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/user_id_aes_cfb",
+				"Coalesce": 1,
+				"BackupCoalesce": 1,
+				"KeepOnlyBackup": true,
+				"BackupDatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse_backup/user_id_aes_cfb",
+				"JobNamePartition": true,
+				"JobNamePartitionFieldName": "MaskTableReference"
+			}
+		},
+		{
+			"DomainName": "credit_card_aes_cfb",
+			"SaltName": "Salt2",
+			"Layout": "$VALUE$SALT",
+			"MaskType": "aes_cfb",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "credit_card",
+			"MaskFieldAlias":"credit_card_mask",
+			"ReverseDataset": {
+				"Active":true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/credit_card_aes_cfb",
+				"Coalesce": 5
+			}
+		},
+        {
+			"DomainName": "user_id_aes_ecb",
+			"SaltName": "Salt1",
+			"Layout": "$SALT$VALUE",
+			"MaskType": "aes_ecb",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "user_id",
+			"MaskFieldAlias":"user_id_mask",
+			"ReverseDataset": {
+				"Active": true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/user_id_aes_ecb",
+				"Coalesce": 1,
+				"BackupCoalesce": 1,
+				"KeepOnlyBackup": true,
+				"BackupDatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse_backup/user_id_aes_ecb",
+				"JobNamePartition": true,
+				"JobNamePartitionFieldName": "MaskTableReference"
+			}
+		},
+		{
+			"DomainName": "credit_card_aes_ecb",
+			"SaltName": "Salt2",
+			"Layout": "$VALUE$SALT",
+			"MaskType": "aes_ecb",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "credit_card",
+			"MaskFieldAlias":"credit_card_mask",
+			"ReverseDataset": {
+				"Active":true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/credit_card_aes_ecb",
+				"Coalesce": 5
+			}
+		},
+        {
+			"DomainName": "user_id_aes_ofb",
+			"SaltName": "Salt1",
+			"Layout": "$SALT$VALUE",
+			"MaskType": "aes_ofb",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "user_id",
+			"MaskFieldAlias":"user_id_mask",
+			"ReverseDataset": {
+				"Active": true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/user_id_aes_ofb",
+				"Coalesce": 1,
+				"BackupCoalesce": 1,
+				"KeepOnlyBackup": true,
+				"BackupDatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse_backup/user_id_aes_ofb",
+				"JobNamePartition": true,
+				"JobNamePartitionFieldName": "MaskTableReference"
+			}
+		},
+		{
+			"DomainName": "credit_card_aes_ofb",
+			"SaltName": "Salt2",
+			"Layout": "$VALUE$SALT",
+			"MaskType": "aes_ofb",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "credit_card",
+			"MaskFieldAlias":"credit_card_mask",
+			"ReverseDataset": {
+				"Active":true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/credit_card_aes_ofb",
+				"Coalesce": 5
+			}
+		},
+        {
+			"DomainName": "user_id_sha512",
+			"SaltName": "Salt1",
+			"Layout": "$SALT$VALUE",
+			"MaskType": "sha512",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "user_id",
+			"MaskFieldAlias":"user_id_mask",
+			"ReverseDataset": {
+				"Active": true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/user_id_sha512",
+				"Coalesce": 1,
+				"BackupCoalesce": 1,
+				"KeepOnlyBackup": true,
+				"BackupDatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse_backup/user_id_sha512",
+				"JobNamePartition": true,
+				"JobNamePartitionFieldName": "MaskTableReference"
+			}
+		},
+		{
+			"DomainName": "credit_card_sha512",
+			"SaltName": "Salt2",
+			"Layout": "$VALUE$SALT",
+			"MaskType": "sha512",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "credit_card",
+			"MaskFieldAlias":"credit_card_mask",
+			"ReverseDataset": {
+				"Active":true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/credit_card_sha512",
+				"Coalesce": 5
+			}
+		},
+        {
+			"DomainName": "user_id_sha512/sha256",
+			"SaltName": "Salt1",
+			"Layout": "$SALT$VALUE",
+			"MaskType": "sha512/sha256",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "user_id",
+			"MaskFieldAlias":"user_id_mask",
+			"ReverseDataset": {
+				"Active": true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/user_id_sha512sha256",
+				"Coalesce": 1,
+				"BackupCoalesce": 1,
+				"KeepOnlyBackup": true,
+				"BackupDatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse_backup/user_id_sha512sha256",
+				"JobNamePartition": true,
+				"JobNamePartitionFieldName": "MaskTableReference"
+			}
+		},
+		{
+			"DomainName": "credit_card_sha512/sha256",
+			"SaltName": "Salt2",
+			"Layout": "$VALUE$SALT",
+			"MaskType": "sha512/sha256",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "credit_card",
+			"MaskFieldAlias":"credit_card_mask",
+			"ReverseDataset": {
+				"Active":true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/credit_card_sha512sha256",
+				"Coalesce": 5
+			}
+		},
+        {
+			"DomainName": "user_id_fte_enc",
+			"SaltName": "Salt1",
+			"Layout": "$SALT$VALUE",
+			"MaskType": "fte_enc",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "user_id",
+			"MaskFieldAlias":"user_id_mask",
+			"ReverseDataset": {
+				"Active": true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/user_id_fte_enc",
+				"Coalesce": 1,
+				"BackupCoalesce": 1,
+				"KeepOnlyBackup": true,
+				"BackupDatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse_backup/user_id_fte_enc",
+				"JobNamePartition": true,
+				"JobNamePartitionFieldName": "MaskTableReference"
+			}
+		},
+		{
+			"DomainName": "credit_card_fte_enc",
+			"SaltName": "Salt2",
+			"Layout": "$VALUE$SALT",
+			"MaskType": "fte_enc",
+			"EncryptKey": "1234567890123456",
+			"FieldAlias": "credit_card",
+			"MaskFieldAlias":"credit_card_mask",
+			"ReverseDataset": {
+				"Active":true,
+				"DatasetPath":"s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/input/reverse/credit_card_fte_enc",
+				"Coalesce": 5
+			}
+		}
+	],
+	"Salts": 
+	{
+		"SaltsPath": "s3://NAMING_PREFIX-AWS_ACCOUNT-AWS_REGION-control-bucket/salts/salt1/salt1.json"
+	}
+}

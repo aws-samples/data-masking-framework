@@ -10,71 +10,52 @@
 
 if [ -z "$NAMING_PREFIX" ]
 then
-	echo "Environment variable NAMING_PREFIX needed"
-	exit 1
-fi
-
-if [ -z "$ARTIFACTS_BUCKET" ]
-then
-	echo "Environment variable ARTIFACTS_BUCKET needed"
-	exit 1
-fi
-
-if [ -z "$LANDING_ZONE_BUCKET" ]
-then
-	echo "Environment variable LANDING_ZONE_BUCKET needed"
-	exit 1
-fi
-
-if [ -z "$CONFIG_PATH" ]
-
-then
-	echo "Environment variable CONFIG_PATH needed"
+	echo "Environment variable NAMING_PREFIX is needed"
 	exit 1
 fi
 
 if [ -z "$TABLE_PREFIX_RE" ]
 then
-	echo "Environment variable TABLE_PREFIX_RE needed"
+	echo "Environment variable TABLE_PREFIX_RE is needed"
 	exit 1
 fi
 
 if [ -z "$FILE_EXCLUDE_RE" ]
 then
-	echo "Environment variable FILE_EXCLUDE_RE needed"
+	echo "Environment variable FILE_EXCLUDE_RE is needed"
 	exit 1
 fi
 
 if [ -z "$FILE_INCLUDE_RE" ]
 then
-	echo "Environment variable FILE_INCLUDE_RE needed"
+	echo "Environment variable FILE_INCLUDE_RE is needed"
 	exit 1
 fi
 
 if [ -z "$CRON_HOUR" ]
 then
-	echo "Environment variable CRON_HOUR needed"
+	echo "Environment variable CRON_HOUR is needed"
 	exit 1
 fi
 
 if [ -z "$CRON_DAY" ]
 then
-	echo "Environment variable CRON_DAY needed"
+	echo "Environment variable CRON_DAY is needed"
 	exit 1
 fi
 
 if [ -z "$CRON_MINUTE" ]
 then
-	echo "Environment variable CRON_MINUTE needed"
+	echo "Environment variable CRON_MINUTE is needed"
 	exit 1
 fi
 
 if [ -z "$CRON_WEEK_DAY" ]
 then
-	echo "Environment variable CRON_WEEK_DAY needed"
+	echo "Environment variable CRON_WEEK_DAY is needed"
 	exit 1
 fi
 
-#cdk diff
-cdk deploy  --require-approval never
+#cdk deploy --verbose --require-approval never
+cdk deploy --require-approval never
 exit $?
